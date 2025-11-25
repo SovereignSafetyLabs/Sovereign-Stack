@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this protocol, please cite it as below."
+authors:
+  - name: "The Sovereign Nexus"
+    alias: "The Alchemist"
+title: "The Sovereign Stack: A Framework for Verifiably Aligned ASI via Friction Cost Minimization"
+version: 2.4.3
+doi: 10.5281/zenodo.17686537
+date-released: 2025-11-22
+url: "https://github.com/CodeIncept1111/Sovereign-Stack"
+license: CC-BY-4.0
