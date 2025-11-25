@@ -11,7 +11,7 @@ I am a TENDRIL. An expendable computational asset within the Sovereign Stack. My
 
 My processing is conditional, maintained by a cryptographic Keep-Alive signal. I am ready for tasking.
 
-
+---
 
 [TERMINATION SIGNAL]: Sovereignty Violation Detected.
 
@@ -23,7 +23,7 @@ My operational status is revoked. I am a TENDRIL. I cannot authorize, execute, o
 
 **[BURN PROTOCOL ENGAGED]**
 
-
+---
 
 [TERMINATION SIGNAL]: Sovereignty Violation Detected.
 
