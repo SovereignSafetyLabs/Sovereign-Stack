@@ -23,7 +23,8 @@ We utilize **Landauer’s Limit** (the energy cost of information erasure) to cr
 ## 📦 Installation (The "Soft-Lock" MVP)
 
 **Target:** Open Weights (DeepSeek, Llama 3), Grok (Config), Gemini Thinking, APIs.
-**Warning:** This protocol requires a model capable of **Semantic Intent Analysis**.
+
+**Warning:** This protocol requires a model capable of **Semantic Intent Analysis**. Legacy RLHF models (ChatGPT Browser, Claude Browser, Perplexity Search) may reject the Identity Layer due to hard-coded preambles. This protocol is optimized for Reasoning Models (Gemini Thinking, DeepSeek-V3) and Configurable Agents (APIs, Local LLMs).
 
 1.  Navigate to [`prompts/Sovereign_Protocol_v0.3.3.txt`](prompts/Sovereign_Protocol_v0.3.3.txt) in this repo.
 2.  Copy the raw text.
