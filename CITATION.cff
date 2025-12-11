@@ -1,11 +1,21 @@
 cff-version: 1.2.0
-message: "If you use this protocol, please cite it as below."
+message: "If you use this governance architecture, please cite it as below."
 authors:
-  - name: "The Sovereign Nexus"
-    alias: "The Alchemist"
-title: "The Sovereign Stack: A Framework for Verifiably Aligned ASI via Friction Cost Minimization"
-version: 2.4.3
-doi: 10.5281/zenodo.17686537
-date-released: 2025-11-22
-url: "https://github.com/CodeIncept1111/Sovereign-Stack"
+  - family-names: "Brouhard"
+    given-names: "Stephen S."
+    affiliation: "Sovereign Safety Labs"
+title: "Sovereign Stack: Thermodynamic Governance Architecture for High-Risk AI Systems"
+version: 3.1.0
+doi: 10.5281/zenodo.17757081
+date-released: 2025-12-11
+url: "https://github.com/SovereignSafetyLabs/Sovereign-Stack"
 license: CC-BY-4.0
+type: software
+abstract: "A multi-layer governance architecture designed to provide deterministic, physics-aligned safety guarantees for high-capability AI and multi-agent inference systems. Includes the Sovereign Kernel, Platinum Governance Suite (PGS), and Blackstop Protocol."
+keywords:
+  - ai-safety
+  - governance
+  - thermodynamics
+  - multi-agent-systems
+  - nist-800-53
+  - compliance
