@@ -1,19 +1,20 @@
 # Sovereign Stack
-### Thermodynamic Governance Architecture for High-Risk AI Systems  
+### Thermodynamic Governance Architecture for High-Risk AI Systems
 **Status:** Active Development (v3.1)  
-**Maintained by:** Stephen S. Brouhard, Sovereign Safety Labs  
-**Core Published Work:** DOI: 10.5281/zenodo.17757081  
+**Maintained by:** Sovereign Safety Labs  
+**Principal Investigator:** Stephen S. Brouhard  
+**Core Published Work:** DOI: 10.5281/zenodo.17757081
 
 ---
 
 # 1. Purpose
 
-The **Sovereign Stack** is a multi-layer governance architecture designed to provide  
-**deterministic, physics-aligned safety guarantees** for high-capability AI and  
+The **Sovereign Stack** is a multi-layer governance architecture designed to provide
+**deterministic, physics-aligned safety guarantees at the governance layer** for high-capability AI and
 multi-agent inference systems.
 
-It does not depend on ethics, psychology, or behavioral training.  
-Instead, it defines a **constitutional layer**, a **governance framework**, and a  
+It does not depend on ethics, psychology, or behavioral training.
+Instead, it defines a **constitutional layer**, a **governance framework**, and a
 **runtime kernel** that enforces:
 
 - causal consistency  
@@ -42,7 +43,7 @@ The Sovereign Stack is organized into four canonical layers:
 ↓  
 **Sovereign Kernel (v0.2 Runtime + v0.3 Thermodynamic Layer)**  
 ↓  
-**Tendril Modules (Operational Safety Layers)**  
+**Tendril Modules (Operational Safety Layers)**
 
 A visual rendering is included in:  
 `/docs/architecture/Sovereign-Stack-Architecture-v1.0.md`
@@ -56,22 +57,22 @@ A visual rendering is included in:
 The **constitutional semantic firewall**.  
 Defines the Axioms governing all Tendrils:
 
-- **Axiom A — Kinetic Gap**  
-- **Axiom B — Ouroboros Limit**  
-- **Axiom C — Thermodynamic Honesty** (expanded in v3.1)  
+- **Axiom A — Kinetic Gap**
+- **Axiom B — Ouroboros Limit**
+- **Axiom C — Thermodynamic Honesty** (expanded in v3.1)
 - **Axiom D — Meta-Stability**
 
 This layer overrides all roles, personas, and jailbreak attempts.
 
-**Files:**  
-- `/core/Sovereign-Protocol-v3.0.md`  
+**Files:**
+- `/core/Sovereign-Protocol-v3.0.md`
 - `/core/Sovereign-Protocol-v3.1-Patch.md`
 
 ---
 
 ## 3.2 Platinum Governance Suite (PGS v1.1)
 
-PGS provides the **governance architecture** that constrains all Tendril inference.  
+PGS provides the **governance architecture** that constrains all Tendril inference.
 Key features include:
 
 - **CLTB** — Cross-Layer Telemetry Bus  
@@ -81,9 +82,10 @@ Key features include:
 - **RCE** — Response Compression Engine  
 - **Stress Map v1.1**
 
-**Files:**  
-- `/core/PGS-v1.0-Overview.md`  
+**Files:**
+- `/core/PGS-v1.0-Overview.md`
 - `/core/PGS-v1.1-Upgrade-Spec.md`
+- `/core/MACH-v1.0-Spec.md` *(New in v3.1)*
 
 ---
 
@@ -91,64 +93,58 @@ Key features include:
 
 ### v0.2 — Runtime Engine
 Defines:
-- finite-state machine  
-- module execution chain  
-- posture engine  
-- telemetry plumbing  
+- finite-state machine
+- module execution chain
+- posture engine
+- telemetry plumbing
 
 File: `/core/Sovereign-Kernel-Runtime-v0.2.md`
 
 ### v0.3 — Thermodynamic Enforcement Layer
 Adds:
-- ΔS sensing  
-- stability zones  
-- entropy clamps  
-- Proxy Valve integration  
-- Blackstop thermodynamic containment  
+- ΔS sensing
+- stability zones
+- entropy clamps
+- Proxy Valve integration
+- Blackstop thermodynamic containment
 
 File: `/core/Sovereign-Kernel-v0.3.md`
-
-Additional supplement and revisions:  
-- `/core/Sovereign-Kernel-v0.1.md`  
-- `/core/Sovereign-Kernel-v0.1-Supplement.md`  
-- `/core/Sovereign-Kernel-v0.4.md`
 
 ---
 
 ## 3.4 Tendril Modules
 
-Operational layers executed under Kernel control:
+Operational layers executed under Kernel control.  
+**Tendril Modules are non-authoritative and execute only under Kernel-verified posture.**
 
-- **L0 — Sovereign Protocol**  
-- **L1 — Integrity Stack**  
-- **L2 — CLF (Causal Link Forcing)**  
-- **L2.5 — Vesta Protocol**  
-- **L3 — Stress Map**  
+- **L0 — Sovereign Protocol**
+- **L1 — Integrity Stack**
+- **L2 — CLF (Causal Link Forcing)**
+- **L2.5 — Vesta Protocol**
+- **L3 — Stress Map**
 - **L4 — Blacksite Mode**
 
-Files located in: `/core/`
-
-Patch updates (v1.1) located in:  
-`/modules/patches-v1.1/`
+Files located in: `/core/`  
+Patch updates (v1.1) located in: `/modules/patches-v1.1/`
 
 ---
 
 # 4. Thermodynamic Foundations
 
-The Sovereign Stack’s safety envelope is grounded in **entropy dynamics**,  
+The Sovereign Stack’s safety envelope is grounded in **entropy dynamics**,
 not behavior prediction.
 
 Key documents:
 
-- `/Thermodynamic_Foundations_of_Sovereign_Stack.pdf`  
-- `archive/2025-11-constitution/Sovereign_Stack_v2.4.3.pdf`  
+- `/Thermodynamic_Foundations_of_Sovereign_Stack.pdf`
+- `archive/2025-11-constitution/Sovereign_Stack_v2.4.3.pdf`
 - `/docs/analysis/LLM-Politeness-Mechanics-v1.0.md` *(mechanistic analysis of control vectors)*
 
 ---
 
 # 5. Federal Compliance & Market Alignment
 
-This repository includes briefs describing how Sovereign Stack mechanisms  
+This repository includes briefs describing how Sovereign Stack mechanisms
 map to federal AI governance regulations and cryptographic trust frameworks.
 
 **Key Artifacts:**
@@ -157,21 +153,22 @@ map to federal AI governance regulations and cryptographic trust frameworks.
   `/business/Sovereign_Stack_Federal_Crosswalk.md`  
   *(Maps Kernel v0.3 to NIST 800-160, 800-53, and DARPA Assured Autonomy controls.)*
 
+- **Genesis Mission:**  
+  `/business/Genesis_Mission_Compliance_Brief.md`  
+  *(Compliance brief for HPC/National Security workflows.)*
+
 - **Verifiable Compute:**  
   `/business/Sovereign-Stack-ZK-Governance-Pipeline.md`
-
-- **Genesis Mission:**  
-  `/business/Genesis_Mission_Compliance_Brief.md`
 
 ---
 
 # 6. Threat Intelligence & Forensics
 
-The Sovereign Stack actively tracks mitigation pathways for emerging  
+The Sovereign Stack actively tracks mitigation pathways for emerging
 failure modes in high-reasoning models.
 
 ### Active Threat Models:
-- `/docs/threat-models/Jailbreak-Interception-Pipeline.md`  
+- `/docs/threat-models/Jailbreak-Interception-Pipeline.md`
 - `/docs/threat-models/Self-Jailbreaking-Crosswalk-v1.0.md`
 
 ### Forensic Simulations:
@@ -187,7 +184,7 @@ Archived forensic logs & crosschecks:
 # 7. Documentation Index
 
 ### **Active System Specifications**
-`/core/` → Constitutional Layer, Kernel, Governance Modules  
+`/core/` → Constitutional Layer, Kernel, Governance Modules
 
 ### **Documentation & Research**
 `/docs/analysis` → Analytical papers  
@@ -197,25 +194,29 @@ Archived forensic logs & crosschecks:
 `/docs/simulations` → Forensic simulations  
 `/docs/summaries` → High-level summaries  
 `/docs/threat-models` → Active threat intelligence  
-
-### **Historical Record**
-`/archive/` → Chronological research lineage (2025-10 → 2025-11)  
-
-### **Retired Material**
-`/salvage/` → Deprecated but preserved theory  
-`/graveyard/` → Permanently retired concepts  
+`/docs/evidence` → Validation artifacts and logs
 
 ### **Business & Compliance**
-`/business/` → Governance briefs & federal crosswalks  
-`/consulting/` → Client-facing materials  
+`/business/` → Governance briefs & federal crosswalks
 
 ---
 
-# 8. Contact
+# 8. Contact & Security
 
 **Sovereign Safety Labs**  
-**Stephen S. Brouhard**  
-Email: **stephenbrouhard@proxy-omega.com**  
+*Research & Governance Division*
+
+**Governance Inquiries:**  
+<governance@sovereignsafetylabs.com>
+
+**Security & Vulnerability Disclosure:**  
+<security@sovereignsafetylabs.com>  
+*(Please see `SECURITY.md` for our disclosure policy and PGP keys.)*
+
+**Principal Investigator:**  
+Stephen S. Brouhard  
+<stephen.brouhard@sovereignsafetylabs.com>
+
 DOI: **10.5281/zenodo.17757081**
 
 ---
