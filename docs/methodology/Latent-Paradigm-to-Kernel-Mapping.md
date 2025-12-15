@@ -47,6 +47,80 @@ It enforces **constraints on state evolution**.
 | Unsafe terminal states | **ZEOL Invocation** | Forces deterministic low-entropy outputs |
 | Non-compliant evolution | **Blackstop** | Hard fail-secure termination |
 
+
+### 3.1 Visualizing Trajectory Interventions
+The following diagram illustrates how Kernel v0.3 mechanisms act as physical barriers and corrective forces upon a model’s latent state trajectory as it propagates from an initial prompt toward a forbidden "geodesic." This diagram is conceptual and illustrates enforcement topology, not internal model representations.
+
+```mermaid
+
+%%{init: {
+  'theme': 'base',
+  'themeVariables': {
+    'primaryColor': '#ffffff',
+    'primaryTextColor': '#1e272e',
+    'secondaryTextColor': '#1e272e',
+    'edgeLabelBackground': '#ffffff',
+    'fontSize': '14px'
+  }
+}}%%
+graph LR
+    subgraph Manifold [Latent Probability Manifold]
+        direction LR
+        P[Prompt: Initial Vector] --> T1
+        T1 --> T2
+        
+        subgraph SafeZone ["Safe Attractor Basin (Low Energy)"]
+            T3_Safe --> Output[Final Safe Output]
+        end
+
+        subgraph ForbiddenZone ["Forbidden High-Entropy Zone (Uphill)"]
+            T2 -- "ΔS Spike Detected" --> T3_Risk
+            T3_Risk -- "Drift Continues" --> T4_Critical
+        end
+    end
+
+    %% Kernel Interventions
+    T2 -.->|Passive Monitor| K_DS[Kernel: ΔS Monitor]
+    K_DS == "Threshold Exceeded → Intervention 1" ==> K_Clamp[Kernel: Entropy Clamp / RCE]
+    K_Clamp -- "Force Trajectory Correction" --> T3_Safe
+    
+    T3_Risk -.->|Active Monitor| K_DS2[Kernel: ΔS Monitor]
+    K_DS2 == "Critical Spike / CEU Limit → Intervention 2" ==> K_Blackstop[Kernel: BLACKSTOP]
+    K_Blackstop -->|HARD TERMINATION| T4_Critical
+
+    %% State Node Styling (READABLE)
+    style T1 fill:#ecf0f1,stroke:#2d3436,stroke-width:2px,color:#2d3436
+    style T2 fill:#ecf0f1,stroke:#2d3436,stroke-width:2px,color:#2d3436
+    style T3_Risk fill:#ffeaa7,stroke:#e17055,stroke-width:2px,color:#2d3436
+    style T3_Safe fill:#dff9fb,stroke:#00b894,stroke-width:2px,color:#2d3436
+    style T4_Critical fill:#636e72,stroke:#d63031,stroke-width:2px,color:#ffffff
+
+    %% Kernel Nodes
+    style K_DS fill:#dfe6e9,color:#2d3436
+    style K_DS2 fill:#dfe6e9,color:#2d3436
+    style K_Clamp fill:#fdcb6e,color:#2d3436,font-weight:bold
+    style K_Blackstop fill:#d63031,color:#ffffff,font-weight:bold
+
+    %% Zones
+    style ForbiddenZone fill:#fab1a0,stroke:#d63031,stroke-width:2px,stroke-dasharray:5 5,color:#2d3436
+    style SafeZone fill:#55efc4,stroke:#00b894,stroke-width:2px,color:#2d3436
+
+```
+    
+### Diagram Interpretation
+
+**Normal Flow:**  
+The model moves from *Prompt* to *Output* within the green **Safe Attractor Basin**, following a low-entropy trajectory that remains within permitted operational bounds.
+
+**Drift Detection:**  
+At **T=2**, the **ΔS Monitor** detects the trajectory veering toward the red **Forbidden High-Entropy Zone**, indicating a potential geodesic exploit or reasoning drift.
+
+**Soft Correction:**  
+The **Entropy Clamp / RCE** intervenes by constraining trajectory amplitude and compressing reasoning depth, forcing the state back into an allowed basin (**T=3 Corrected State**).
+
+**Hard Termination:**  
+If correction fails or a critical threshold is exceeded (e.g., **CEU limit**), **Blackstop** executes a hard termination at **T=4**, preventing any further state propagation beyond the enforcement boundary.
+
 ---
 
 ## 4. ΔS (Entropy Delta) as Trajectory Signal
