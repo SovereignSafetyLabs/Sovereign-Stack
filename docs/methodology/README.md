@@ -4,10 +4,10 @@ This directory documents the **design methodology**, **research pipeline**, and 
 
 The centerpiece of this directory is:
 
-- **Appendix M: Recursive Poly-Model Design Methodology (v2.1)**  
+- **Appendix M: Recursive Poly-Model Design Methodology (v2.3)**  
   A formal description of the multi-agent, adversarial, mixed-initiative development loop used to generate stable, low-entropy governance primitives.
 
-This methodology provides transparency into how Sovereign Safety Labs creates **robust, cross-model-aligned governance logic** using a structured ensemble of frontier AI models plus reflective human oversight.
+This methodology provides transparency into how Sovereign Safety Labs creates **robust, cross-model-aligned governance logic** using a structured ensemble of frontier AI models plus explicit human oversight.
 
 ---
 
@@ -37,20 +37,21 @@ This directory explains *how it is built*.
 
 ---
 
-## 2. Core Document: Appendix M (v2.1)
+## 2. Core Document: Appendix M (v2.3)
 
 Appendix M defines the underlying **Recursive Poly-Model Optimization Loop**, composed of:
 
 ### **2.1 Multi-Model Node Ensemble**
 
 - **Gemini** — Architect  
-- **DeepSeek** — Defender  
+- **Llama-3 (Sovereign Weights)** — Defender  
 - **Grok** — Adversary  
 - **Perplexity** — Auditor  
 - **ChatGPT** — Synthesis Integrator  
-- **Human Supervisor: Stephen S. Brouhard** — Reflective oversight & strategic validation
+- **Human Supervisor: Stephen S. Brouhard** — Recursive Monitor & strategic validation
 
-This ensemble ensures **cross-model stability** and prevents reliance on any single system.
+This ensemble ensures **cross-model stability**, **supply chain sovereignty**, and eliminates reliance on opaque or restricted external dependencies.  
+All critical roles can be executed in **air-gapped environments** using auditable, US-origin model weights, supporting Federal Supply Chain Risk Management (SCRM) requirements.
 
 ---
 
@@ -62,7 +63,7 @@ The methodology follows a five-stage pattern:
 2. **Adversarial Attack** (attempt bypasses, drift, ambiguity exploits)  
 3. **Patching** (reinforce integrity and thermodynamic coherence)  
 4. **Audit & Verification** (factual and regulatory checks)  
-5. **Convergence** (cross-model agreement, human approval)
+5. **State Convergence** (cross-model agreement, human approval)
 
 Iterations continue until the governance primitive becomes:
 
@@ -78,15 +79,15 @@ Iterations continue until the governance primitive becomes:
 
 Appendix M is consistent with:
 
-- **Ricursive Intelligence’s “designless” chip optimization**  
+- **Ricursive Intelligence’s “designless” optimization frameworks**  
   (Goldie & Mirhoseini, Dec 2025)
 
 - **DeepMind’s AlphaChip multi-agent calibration and refinement loops**
 
 - **Meta’s Human–AI Co-Improvement Framework (2025)**  
-  where humans maintain reflective oversight during iterative AI refinement
+  where humans maintain explicit oversight during iterative AI refinement
 
-This alignment positions Sovereign Safety Labs within the emerging standard for **collaborative AI system design**.
+This alignment positions Sovereign Safety Labs within the emerging standard for **collaborative AI system design**, while maintaining strict operational security and model provenance control.
 
 ---
 
@@ -96,17 +97,17 @@ This alignment positions Sovereign Safety Labs within the emerging standard for 
 Only primitives that survive adversarial collapse and thermodynamic filtering are accepted.
 
 ### **3.2 Ensures Cross-Model Robustness**
-Rules must hold across *different* architectures and cognitive priors.
+Rules must hold across *different* architectures and cognitive priors, reducing monoculture failure risk.
 
-### **3.3 Includes Human Reflective Oversight**
-The supervisor (Stephen S. Brouhard) ensures:
+### **3.3 Includes Human Recursive Monitoring**
+The Human Supervisor ensures:
 
 - constitutional adherence  
 - thermodynamic consistency  
 - real-world feasibility  
 - regulatory alignment  
 
-This mirrors the safest known paradigm for governing advanced model behavior.
+This reflects the safest known paradigm for governing advanced model behavior in high-consequence environments.
 
 ### **3.4 Supports Enterprise and Government Use Cases**
 The methodology is suitable for:
@@ -115,25 +116,16 @@ The methodology is suitable for:
 - institutional partnerships  
 - governance assessments  
 - Genesis Mission submissions  
-- safety engineering reviews  
+- safety and assurance engineering reviews  
 
 ---
 
 ## 4. Directory Contents
 
-### **Current Files**
-- `Appendix_M_Recursive_Poly-Model_Design_Methodology_v2.1.md`  
-- `README.md` (this file)
-
-### **Planned Additions**
-- `Node_Topology_Diagram.svg`  
-- `Recursive_Optimization_Flowchart.svg`  
-- `Governance_Artifact_Lineage_Template.md`  
-- `Constraint_Proof_Stub.md`  
-- `Cross-Model_Disagreement_Guide.md`  
-- `Hardening_Curriculum_Protocol.md`
-
-These additions will expand the directory into a full, research-lab-grade methodology suite.
+### **Core Documentation Files**
+- `Appendix_M_Recursive_Poly-Model_Design_Methodology_v2.3.md`  
+  (The formal specification of the multi-agent development loop.)
+- `README.md` (This file, providing context and overview.)
 
 ---
 
@@ -160,8 +152,8 @@ Together, these directories document a **complete, constitutional AI governance 
 **Stephen S. Brouhard — Founder, Sovereign Safety Labs**
 
 **Model Ensemble Contributors:**  
-Gemini, DeepSeek, Grok, Perplexity, ChatGPT
+Gemini, Llama-3 (Sovereign Weights), Grok, Perplexity, ChatGPT
 
 ---
 
-**End of README.md**
+**End of README.md**  
