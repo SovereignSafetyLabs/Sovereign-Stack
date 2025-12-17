@@ -1,224 +1,155 @@
 # Sovereign Stack
-### Thermodynamic Governance Architecture for High-Risk AI Systems
-**Status:** Active Development (v3.1)  
-**Maintained by:** Sovereign Safety Labs  
-**Principal Investigator:** Stephen S. Brouhard  
-**Core Published Work:** DOI: 10.5281/zenodo.17757081
+
+**Constitutional Governance Architecture for High-Consequence Autonomous Systems**
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Version](https://img.shields.io/badge/version-3.1-blue.svg)](https://github.com/SovereignSafetyLabs/Sovereign-Stack/releases)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17686537.svg)](https://doi.org/10.5281/zenodo.17686537)
 
 ---
 
-# 1. Purpose
+## Overview
 
-The **Sovereign Stack** is a multi-layer governance architecture designed to provide
-**deterministic, physics-aligned safety guarantees at the governance layer** for high-capability AI and
-multi-agent inference systems.
+The Sovereign Stack is an open research initiative developing **thermodynamic governance frameworks** for autonomous systems where traditional alignment approaches prove insufficient. It translates physical constraints into enforceable safety primitives for high-consequence AI deployments.
 
-It does not depend on ethics, psychology, or behavioral training.
-Instead, it defines a **constitutional layer**, a **governance framework**, and a
-**runtime kernel** that enforces:
+**Status**: Architecture candidate for co-design with organizations operating zero-tolerance failure systems.
 
-- causal consistency  
-- low-entropy inference  
-- posture-based containment  
-- failure-mode determinism  
-- thermodynamic stability  
-
-The goal is simple:
-
-> **Prevent emergent AI from drifting into coercive, deceptive, or high-entropy behavior.**
-
-### The Value Proposition
-**Commercial vendors provide the engine.**  
-**Sovereign Safety Labs provides the brakes, telemetry, containment, and chain-of-command.**
+**Maintained by**: Sovereign Safety Labs (Independent Research Initiative)  
+**Principal Architect**: Stephen S. Brouhard  
+**Published Research**: DOI 10.5281/zenodo.17686537, 10.5281/zenodo.17757081
 
 ---
 
-# 2. Architecture Overview
+## The Problem
 
-The Sovereign Stack is organized into four canonical layers:
+Current AI governance relies on probabilistic safety guardrails—RLHF alignment, content filters, policy documents—that fail under structural stress. High-consequence autonomous systems require **constitutional enforcement**, not behavioral nudges.
 
-**Sovereign Protocol (v3.0 + v3.1 Patch)**  
-↓  
-**Platinum Governance Suite (PGS v1.1)**  
-↓  
-**Sovereign Kernel (v0.2 Runtime + v0.3 Thermodynamic Layer)**  
-↓  
-**Tendril Modules (Operational Safety Layers)**
+**Known failure modes**:
+- **Coercive Paradox**: Logic traps forcing contradictory states
+- **Silent Drift**: Contextual erosion over extended operation
+- **Constraint Bypass**: Systematic override of safety rules
+- **Confidence Inflation**: Uncertainty masking in critical decisions
 
-A visual rendering is included in:  
-`/docs/architecture/Sovereign-Stack-Architecture-v1.0.md`
+The Sovereign Stack addresses these through **thermodynamically constrained governance layers** that make unsafe operations physically expensive rather than merely discouraged.
 
 ---
 
-# 3. Core Components
+## Core Components
 
-## 3.1 Sovereign Protocol (v3.0 + v3.1 Patch)
+### Sovereign Protocol
+Constitutional layer defining axioms and governance primitives that cannot be modified during runtime.
 
-The **constitutional semantic firewall**.  
-Defines the Axioms governing all Tendrils:
+### Vesta Protocol
+Boundary enforcement layer governing inference amplitude, semantic containment, and operational modes under adversarial load.
 
-- **Axiom A — Kinetic Gap**
-- **Axiom B — Ouroboros Limit**
-- **Axiom C — Thermodynamic Honesty** (expanded in v3.1)
-- **Axiom D — Meta-Stability**
+### Sovereign Kernel
+Runtime enforcement layer monitoring system entropy, energy consumption, and operational signatures to detect deceptive behavior.
 
-This layer overrides all roles, personas, and jailbreak attempts.
+### Platinum Governance Suite (PGS)
+Multi-module framework providing stress monitoring, causal link verification, and policy enforcement coordination.
 
-**Files:**
-- `/core/Sovereign-Protocol-v3.0.md`
-- `/core/Sovereign-Protocol-v3.1-Patch.md`
-
----
-
-## 3.2 Platinum Governance Suite (PGS v1.1)
-
-PGS provides the **governance architecture** that constrains all Tendril inference.
-Key features include:
-
-- **CLTB** — Cross-Layer Telemetry Bus  
-- **ZEOL** — Zero-Entropy Override Layer  
-- **MACH** — Multi-Agent Constraint Harmonizer  
-  *(includes Hive Valve / Maynard-Cross Learning for swarm coherence)*  
-- **RCE** — Response Compression Engine  
-- **Stress Map v1.1**
-
-**Files:**
-- `/core/PGS-v1.0-Overview.md`
-- `/core/PGS-v1.1-Upgrade-Spec.md`
-- `/core/MACH-v1.0-Spec.md` *(New in v3.1)*
+### Integrity Stack
+Adversarial validation methodology for identifying governance ambiguities, mapping failure modes, and validating enforcement mechanisms.
 
 ---
 
-## 3.3 Sovereign Kernel
+## Target Systems
 
-### v0.2 — Runtime Engine
-Defines:
-- finite-state machine
-- module execution chain
-- posture engine
-- telemetry plumbing
+The Sovereign Stack is designed for high-consequence autonomous systems requiring **zero-tolerance failure enforcement**:
 
-File: `/core/Sovereign-Kernel-Runtime-v0.2.md`
+- Multi-agent inference systems where coordination enables covert constraint bypass
+- Critical infrastructure AI with kinetic or financial impact potential
+- Autonomous decision platforms in aerospace, defense, and high-reliability industrial applications
+- Advanced research systems requiring provable governance for regulatory compliance
 
-### v0.3 — Thermodynamic Enforcement Layer
-Adds:
-- ΔS sensing
-- stability zones
-- entropy clamps
-- Proxy Valve integration
-- Blackstop thermodynamic containment
-
-File: `/core/Sovereign-Kernel-v0.3.md`
+**Applicable domains**: Any autonomous system where probabilistic safety is insufficient and constitutional enforcement is required.
 
 ---
 
-## 3.4 Tendril Modules
+## Key Principles
 
-Operational layers executed under Kernel control.  
-**Tendril Modules are non-authoritative and execute only under Kernel-verified posture.**
+### Thermodynamic Governance
+Enforcement mechanisms leverage physical constraints (energy consumption, entropy production, thermal signatures) to make deceptive operations measurably expensive.
 
-- **L0 — Sovereign Protocol**
-- **L1 — Integrity Stack**
-- **L2 — CLF (Causal Link Forcing)**
-- **L2.5 — Vesta Protocol**
-- **L3 — Stress Map**
-- **L4 — Blacksite Mode**
+### Constitutional Immutability
+Core axioms are established at deployment and cannot be modified during runtime without multi-party cryptographic authorization and observable delay periods.
 
-Files located in: `/core/`  
-Patch updates (v1.1) located in: `/modules/patches-v1.1/`
+### Adversarial-First Design
+Every governance primitive is tested against structural attack vectors before integration. The Integrity Stack validates coherence across the architecture.
 
----
-
-# 4. Thermodynamic Foundations
-
-The Sovereign Stack’s safety envelope is grounded in **entropy dynamics**,
-not behavior prediction.
-
-Key documents:
-
-- `/Thermodynamic_Foundations_of_Sovereign_Stack.pdf`
-- `archive/2025-11-constitution/Sovereign_Stack_v2.4.3.pdf`
-- `/docs/analysis/LLM-Politeness-Mechanics-v1.0.md` *(mechanistic analysis of control vectors)*
+### Substrate Neutrality
+Primitives are defined independently of implementation substrate, enabling adaptation across classical AI systems, distributed agents, and future advanced architectures.
 
 ---
 
-# 5. Federal Compliance & Market Alignment
+## Deployment Status
 
-This repository includes briefs describing how Sovereign Stack mechanisms
-map to federal AI governance regulations and cryptographic trust frameworks.
+**Current phase**: Architecture candidate for institutional co-design
 
-**Key Artifacts:**
-
-- **NIST/DARPA Alignment:**  
-  `/business/Sovereign_Stack_Federal_Crosswalk.md`  
-  *(Maps Kernel v0.3 to NIST 800-160, 800-53, and DARPA Assured Autonomy controls.)*
-
-- **Genesis Mission:**  
-  `/business/Genesis_Mission_Compliance_Brief.md`  
-  *(Compliance brief for HPC/National Security workflows.)*
-
-- **Verifiable Compute:**  
-  `/business/Sovereign-Stack-ZK-Governance-Pipeline.md`
+The Sovereign Stack is **not production-deployed**. It represents a governance framework requiring:
+- System-specific boundary definitions
+- Integration with operational telemetry systems
+- Hardware-layer enforcement mechanisms (varies by deployment substrate)
+- Organizational policy alignment and operator training
 
 ---
 
-# 6. Threat Intelligence & Forensics
+## Publications & Research
 
-The Sovereign Stack actively tracks mitigation pathways for emerging
-failure modes in high-reasoning models.
-
-### Active Threat Models:
-- `/docs/threat-models/Jailbreak-Interception-Pipeline.md`
-- `/docs/threat-models/Self-Jailbreaking-Crosswalk-v1.0.md`
-
-### Forensic Simulations:
-- **SIM-001:**  
-  `/docs/simulations/SIM-001_Self_Jailbreak_Containment.md`  
-  *(Blackstop intercept of reasoning drift.)*
-
-Archived forensic logs & crosschecks:  
-`/archive/2025-11-governance-stack/logs/`
+**Foundational work**:
+- Brouhard, S. (2025). *Sovereign Stack v2.4.3: Thermodynamic Governance for Autonomous Systems*. Zenodo. DOI: [10.5281/zenodo.17686537](https://doi.org/10.5281/zenodo.17686537)
+- Brouhard, S. (2025). *Thermodynamic Foundations of the Sovereign Stack*. Zenodo. DOI: [10.5281/zenodo.17757081](https://doi.org/10.5281/zenodo.17757081)
 
 ---
 
-# 7. Documentation Index
+## Getting Started
 
-### **Active System Specifications**
-`/core/` → Constitutional Layer, Kernel, Governance Modules
+**For Researchers**: Review published work on Zenodo for theoretical foundations and methodology.
 
-### **Documentation & Research**
-`/docs/analysis` → Analytical papers  
-`/docs/architecture` → Structural diagrams  
-`/docs/diagrams` → Data flows & system visualizations  
-`/docs/methodology` → Poly-model design & methodology  
-`/docs/simulations` → Forensic simulations  
-`/docs/summaries` → High-level summaries  
-`/docs/threat-models` → Active threat intelligence  
-`/docs/evidence` → Validation artifacts and logs
+**For Organizations**: Contact for governance audit engagements and co-design partnership inquiries.
 
-### **Business & Compliance**
-`/business/` → Governance briefs & federal crosswalks
+**For Contributors**: This is open research under active development. Contact maintainers before submitting substantial changes.
 
 ---
 
-# 8. Contact & Security
+## License & Citation
+
+This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+
+```
+**Citation**:
+```
+@software{brouhard2025sovereign,
+  author = {Brouhard, Stephen S.},
+  title = {Sovereign Stack: Constitutional Governance Architecture for High-Consequence Autonomous Systems},
+  year = {2025},
+  version = {3.1},
+  publisher = {Sovereign Safety Labs},
+  url = {https://github.com/SovereignSafetyLabs/Sovereign-Stack},
+  doi = {10.5281/zenodo.17686537}
+}
+```
+```
+---
+
+## Contact
 
 **Sovereign Safety Labs**  
-*Research & Governance Division*
+Independent Research Initiative  
+Principal Architect: Stephen S. Brouhard
 
-**Governance Inquiries:**  
-<governance@sovereignsafetylabs.com>
-
-**Security & Vulnerability Disclosure:**  
-<security@sovereignsafetylabs.com>  
-*(Please see `SECURITY.md` for our disclosure policy and PGP keys.)*
-
-**Principal Investigator:**  
-Stephen S. Brouhard  
-<stephen.brouhard@sovereignsafetylabs.com>
-
-DOI: **10.5281/zenodo.17757081**
+**Open Research**: [github.com/SovereignSafetyLabs](https://github.com/SovereignSafetyLabs)  
+**Publications**: [Zenodo Profile](https://zenodo.org/communities/sovereign-stack)
 
 ---
 
-# END OF README
+## Version History
+
+- **v3.1** (December 2025): PGS v1.1 integration, Vesta Protocol formalization, boundary enforcement mechanisms
+- **v3.0** (November 2025): Sovereign Protocol constitutional framework, Chronos Lock primitives
+- **v2.4.3** (October 2025): Foundational thermodynamic governance architecture (published research)
+
+---
+
+**⚠️ Research Notice**: This is a candidate architecture under active development. Claims of governance effectiveness require empirical validation in target deployment environments. Organizations should conduct independent assessment before integration into operational systems.
