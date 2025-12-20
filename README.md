@@ -7,6 +7,10 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17686537.svg)](https://doi.org/10.5281/zenodo.17686537)
 
 ---
+> **⚠️ ACTIVE DEVELOPMENT NOTICE**  
+> This repository is under active development. Core primitives are stable; implementation examples and empirical validation are in progress. Organizations evaluating this framework should contact maintainers for current status and co-design opportunities.
+
+---
 
 ## Overview
 
