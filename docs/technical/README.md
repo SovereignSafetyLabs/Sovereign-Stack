@@ -1,97 +1,41 @@
-# Sovereign Stack — Technical Research Layer
+# TECHNICAL REFERENCE INDEX
+# CLASSIFICATION: UNCLASSIFIED // TLP:WHITE
+# AUDIT CONTEXT: SYSTEM ARCHITECTURE & INTEGRATION
 
-**Exploratory Architectures, Protocols, and Evaluation Methodologies**
+## 1. SCOPE & PURPOSE
+This directory indexes the technical specifications, architectural diagrams, and engineering constraints of the Vesta Governance Framework. 
 
----
+**WARNING:** This index distinguishes between **Runtime Artifacts (TRL 6)** and **Design Specifications (TRL 2-3)**. Auditors must verify the TRL status of each referenced component in `VALIDATION_STATUS.md`.
 
-> ⚠️ **TECHNICAL RESEARCH DISCLAIMER**
->
-> This section contains **speculative, exploratory, and pre-validation material**.
-> Concepts described here are research artifacts, not operational systems.
-> Metrics, bounds, and primitives are analytical constructs unless explicitly validated.
+## 2. ARCHITECTURAL BASELINE
+Primary engineering documents defining the system boundaries and logic flow.
 
----
+| Component | File Path | Status |
+| :--- | :--- | :--- |
+| **System Architecture** | [`../architecture/Sovereign-Stack-Architecture-v1.0.md`](../architecture/Sovereign-Stack-Architecture-v1.0.md) | **Design Spec** |
+| **Data Flow** | [`../diagrams/Sovereign-Stack-Data-Flow-Diagram.md`](../diagrams/Sovereign-Stack-Data-Flow-Diagram.md) | **Logic Model** |
+| **Heatmap Analysis** | [`../architecture/System-View-Heatmap-v1.0.md`](../architecture/System-View-Heatmap-v1.0.md) | **Analytical** |
 
-## Purpose of This Layer
+## 3. THREAT MODELING & CONTAINMENT
+Technical analysis of adversarial vectors and containment logic.
 
-This directory contains the **technical core** of the Sovereign Stack research effort.
+| Vector | File Path | Description |
+| :--- | :--- | :--- |
+| **Self-Jailbreaking** | [`../threat-models/Self-Jailbreaking-Crosswalk.md`](../threat-models/Self-Jailbreaking-Crosswalk.md) | Recursive failure modes. |
+| **Interception** | [`../threat-models/Jailbreak-Interception-Pipeline.md`](../threat-models/Jailbreak-Interception-Pipeline.md) | Detection logic flow. |
+| **Lifecycle** | [`../architecture/Jailbreak-Lifecycle-Diagram-v1.0.md`](../architecture/Jailbreak-Lifecycle-Diagram-v1.0.md) | Attack path visualization. |
 
-It is intended for readers who:
-- accept the non-operational research posture
-- are evaluating conceptual governance mechanisms
-- are interested in adversarial stress-testing methodologies
-- understand the difference between architecture and enforcement
+## 4. INTEGRATION & SIMULATION
+Evidence of testing and external integration standards.
 
-If you are looking for a deployable system, this repository is **not** that.
+- **Simulations:** See [`../simulations/`](../simulations/) for synthetic stress test records (SIM-001).
+- **Federal Crosswalk:** See [`../../business/Sovereign_Stack_Federal_Crosswalk.md`](../../business/Sovereign_Stack_Federal_Crosswalk.md) for NIST 800-53 mapping.
 
----
+## 5. RUNTIME IMPLEMENTATION
+For executable reference code and configuration schemas, refer strictly to the Implementation directory.
 
-## Contents Overview
-
-### Governance Architectures
-- Constitutional governance primitives
-- Invariant and boundary-based constraint models
-- Multi-layer governance decompositions
-
-### Protocols
-- Vesta Protocol (conceptual boundary enforcement)
-- Sovereign Protocol (axiomatic governance layer)
-- Supporting coordination and validation mechanisms
-
-### Evaluation & Stress Testing
-- Adversarial probe taxonomies
-- Structural failure-mode mapping
-- Long-horizon drift and degradation analysis
-- Multi-agent and recursive stress scenarios
-
-### Analytical Constructs
-- Resource-cost and entropy-based reasoning
-- Constraint bypass modeling
-- Basin and attractor metaphors for governance stability
+- **Action Catalog (JSON):** [`../../implementation/Quantum_Action_Catalog_v1.1.json`](../../implementation/Quantum_Action_Catalog_v1.1.json)
+- **Control Plane API:** [`../../implementation/Quantum-Classical-Control-Plane.md`](../../implementation/Quantum-Classical-Control-Plane.md)
 
 ---
-
-## Interpretation Guidance
-
-When reading technical sections:
-
-- Treat architectural descriptions as **models**, not implementations
-- Treat metrics as **research signals**, not performance guarantees
-- Treat protocols as **thought experiments and design candidates**
-- Treat examples as **illustrative**, not prescriptive
-
-Nothing in this directory should be interpreted as:
-- production-ready software
-- safety enforcement
-- compliance tooling
-- operational governance control
-
----
-
-## Relationship to Publications
-
-Formal write-ups, longer theoretical treatments, and archived versions of this work
-are published via Zenodo and referenced where applicable.
-
-Technical documents here may evolve faster than published papers.
-
----
-
-## Contribution & Review
-
-This is an **open research repository** under active development.
-
-Researchers interested in:
-- critique
-- replication
-- stress-testing
-- or co-analysis
-
-are encouraged to engage, but should coordinate before proposing substantial changes.
-
----
-
-> ⚠️ **Reminder**
->
-> The presence of detailed technical material does not imply deployment readiness.
-> Depth of description should not be mistaken for maturity of validation.
+*End of Technical Index*
