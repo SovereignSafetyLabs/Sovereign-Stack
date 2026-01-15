@@ -1,4 +1,5 @@
 # Vesta Governance Framework
+*(Formerly "Sovereign Stack")*
 
 **An Exploratory Research Framework for AI Governance and Adversarial Evaluation**
 
@@ -25,7 +26,16 @@ The work focuses on:
 - proposing *conceptual* governance architectures for study and discussion
 - developing evaluation and stress-testing methodologies
 
-This repository should be read as **research documentation**, not as an operational system.
+### Repository Artifact Status (TRL)
+To assist researchers and auditors, the contents of this repository are strictly classified by **Technology Readiness Level (TRL)**.
+
+➡️ **For the complete itemized inventory of all files and their audit status, see [`ARTIFACTS.md`](ARTIFACTS.md).**
+
+| Component | Status | TRL | Description |
+| :--- | :--- | :--- | :--- |
+| **Governance Protocols** | **Reference Implementation** | **TRL 6** | Python 3.10+ schemas, JSON action catalogs, and logic gates **located under `/implementation/`**. Provided for analytical inspection only; not for production use. |
+| **Evaluation Methodology** | **Defined Process** | **TRL 4** | Analytical frameworks for stress-testing and failure-mode analysis **located under `/docs/technical/`**. |
+| **Hardware Enforcement** | **Conceptual / Roadmap** | **TRL 2** | Theoretical architectures (e.g., Entropy Vaults, Hardware Locks). **No Verilog/GDSII present.** |
 
 ---
 
@@ -61,10 +71,10 @@ for understanding governance robustness — not as ready-to-deploy solutions.
 
 ## Who This Is For
 
-- Researchers studying AI governance, alignment, or evaluation
-- Engineers interested in failure-mode analysis and adversarial testing
-- Institutions seeking conceptual understanding, not turnkey solutions
-- Reviewers evaluating governance ideas prior to empirical validation
+- **Auditors & Red Teams:** Reviewing the `/implementation/` directory for logic gaps.
+- **Researchers:** Studying AI governance, alignment, or evaluation.
+- **Engineers:** Interested in failure-mode analysis and adversarial testing.
+- **Institutions:** Seeking conceptual understanding, not turnkey solutions.
 
 ---
 
@@ -72,17 +82,14 @@ for understanding governance robustness — not as ready-to-deploy solutions.
 
 This repository is organized in **two tiers**:
 
-- **Tier 1 (this document)**  
-  Defines scope, posture, and interpretation boundaries.
+- **Tier 1 (this document)** Defines scope, posture, and interpretation boundaries.
 
-- **Tier 2 (Technical Research Layer)**  
-  Contains detailed architectural concepts, protocols, and methodologies.
+- **Tier 2 (Technical Research Layer)** Contains detailed architectural concepts, protocols, and methodologies.
   These materials are explicitly exploratory and should be interpreted accordingly.
 
 Proceed to Tier 2 **only after accepting the research-only posture above**.
 
-➡️ **Technical materials are located in:**  
-[`/docs/technical/README.md`](docs/technical/README.md)
+➡️ **Technical materials are located in:** [`/docs/technical/README.md`](docs/technical/README.md)
 
 ---
 
