@@ -1,22 +1,36 @@
-# Empirical Validation Status
-**Architecture Version:** v3.1 (Candidate Specification)
-**Status:** Pre-Silicon / Governance Definition
+# EMPIRICAL VALIDATION STATUS
+# CLASSIFICATION: UNCLASSIFIED // TLP:WHITE
+# ARCHITECTURE: v3.1 (Candidate Specification)
+# SYSTEM STATE: HYBRID (Software Runtime / Pre-Silicon Hardware)
 
-The Sovereign Stack is a **governance specification** aligned to published physics (Landauer Limit, 1961) and recent photonic integrated circuit (PIC) benchmarks (Cisco, 2024).
+## 1. SCOPE OF CLAIMS
+The Vesta Governance Framework is a governance specification composed of two distinct readiness levels:
+1.  **Software Runtime (TRL 6):** Deterministic configuration artifacts, JSON schemas, and Python reference logic currently resident in the `implementation/` directory.
+2.  **Hardware Enforcement (TRL 2):** Architectural blueprints aligned to physical limits (Landauer), pending silicon validation.
 
-While the architectural primitives are strictly defined, they currently exist as **architectural blueprints for co-design**. They have not yet been validated in silicon or subjected to empirical foundry testing.
+**NOTICE:** Hardware primitives described herein are **Design Targets**. They have not yet been validated in a foundry environment.
 
-## Validation Matrix
+## 2. VALIDATION MATRIX: HARDWARE (TRL 2-3)
+*Status: Design & Simulation Only*
 
-| Governance Primitive | Current Status | Theoretical Basis | Required Validation |
+| Primitive | Current Status | Theoretical Basis | Validation Gap |
 | :--- | :--- | :--- | :--- |
-| **Percentile Vise** | **Conceptual Spec** | Aligned to Landauer Limit (kT ln2) | Thermal simulation with AlGaAs constants |
-| **Hardware Resonance Lock** | **Candidate Design** | Assumes 10µs PIC thermal response | SPICE deck validation & TSMC MPW yield |
-| **DTK Sharding** | **Protocol Definition** | Extends BFT consensus (3-of-3) | Key ceremony protocol stress test |
-| **Chronos Lock** | **Logic Gate** | Smart contract-enforced delay | Bounty escrow stress test |
-| **Entanglement PUF** | **Theoretical Model** | Waveguide defect entropy | TSMC N65 yield measurement |
+| **Percentile Vise** | **Conceptual Spec** | Landauer Limit ($kT \ln 2$) | Requires thermal simulation (AlGaAs). |
+| **Resonance Lock** | **Candidate Design** | 10µs Thermal Response | Requires SPICE deck validation. |
+| **Entanglement PUF** | **Theoretical Model** | Waveguide Defect Entropy | Requires TSMC MPW yield data. |
 
-## Co-Design Invitation
-Sovereign Safety Labs invites foundry partners (TSMC, GlobalFoundries) and optical networking leaders (Cisco, Juniper) to collaborate on the **empirical validation phase** (Q1 2026).
+## 3. VALIDATION MATRIX: SOFTWARE (TRL 6)
+*Status: Implemented / Reference Code*
 
-**Objective:** Transition Vesta from a *Constitutional Specification* to a *Silicon-Validated Enforcement Layer*.
+| Primitive | Current Status | Artifact Path | Validation Logic |
+| :--- | :--- | :--- | :--- |
+| **Action Catalog** | **Runtime Config** | `implementation/*.json` | Schema-enforced policy tiers. |
+| **Poly-Model Filter**| **Reference Code** | `docs/methodology/*.md` | Python 3.10 type-hinted logic. |
+| **Audit Schemas** | **API Contract** | `implementation/Control-Plane` | JSON strict-mode definition. |
+
+## 4. CRITICAL PATH DEPENDENCIES (HARDWARE)
+Transition to TRL 4+ requires external validation from the following vectors:
+* **Fabrication:** Standard CMOS/Photonics yield analysis (e.g., TSMC, GlobalFoundries).
+* **Integration:** Optical networking interface stress testing.
+
+*End of Validation Record*
