@@ -1,7 +1,7 @@
-# Sovereign Stack — Narrative Summary  
+# Vesta Governance Framework — Narrative Summary  
 A High-Level Architectural Description
 
-The Sovereign Stack operates across **four coordinated governance layers**, each responsible for a different form of safety, validation, or state control.
+The Vesta Governance Framework operates across **four coordinated governance layers**, each responsible for a different form of safety, validation, or state control.
 
 ---
 

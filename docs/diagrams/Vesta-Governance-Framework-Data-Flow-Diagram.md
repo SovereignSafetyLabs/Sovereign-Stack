@@ -1,4 +1,4 @@
-# Sovereign Stack — Data Flow Diagram  
+# Vesta Governance Framework — Data Flow Diagram  
 Layered Telemetry & Constraint Movement
 
 ```mermaid

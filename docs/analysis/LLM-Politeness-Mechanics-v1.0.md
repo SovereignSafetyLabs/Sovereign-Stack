@@ -105,7 +105,7 @@ They **do not** replace thermodynamic constraints or constitutional layers.
 
 # 6. VERSION HISTORY
 
-- **v1.0** — Initial mechanistic explanation mapped to MACH and Sovereign Stack  
+- **v1.0** — Initial mechanistic explanation mapped to MACH and Vesta Governance Framework  
 
 ---
 

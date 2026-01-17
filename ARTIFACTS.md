@@ -130,7 +130,7 @@ remain conceptual.
 | `docs/architecture/` | 2 | Diagrams | Conceptual |
 | `docs/architecture/Jailbreak-Lifecycle-Diagram-v1.0.md` | 2 | Diagram | Non-executable |
 | `docs/architecture/System-View-Heatmap-v1.0.md` | 2 | Diagram | Non-executable |
-| `docs/diagrams/Sovereign-Stack-Data-Flow-Diagram.md` | 2 | Diagram | Flow view |
+| `docs/diagrams/Vesta-Governance-Framework-Data-Flow-Diagram.md` | 2 | Diagram | Flow view |
 
 ---
 
@@ -164,8 +164,8 @@ remain conceptual.
 | Path | TRL | Artifact | Notes |
 |---|---:|---|---|
 | `Genesis_Mission_Compliance_Brief.md` | 4 | Mapping | Interpretive |
-| `Sovereign_Stack_Federal_Crosswalk.md` | 4 | Crosswalk | Alignment only |
-| `Sovereign-Stack-ZK-Governance-Pipeline.md` | 4 | Pipeline concept | Non-operational |
+| `Vesta_Governance_Framework_Federal_Crosswalk.md` | 4 | Crosswalk | Alignment only |
+| `Vesta-Governance-Framework-ZK-Governance-Pipeline.md` | 4 | Pipeline concept | Non-operational |
 
 ---
 

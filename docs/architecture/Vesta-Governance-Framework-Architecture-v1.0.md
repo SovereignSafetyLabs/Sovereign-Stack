@@ -1,8 +1,8 @@
-# Sovereign Stack Architecture Diagram  
+# Vesta Governance Framework Architecture Diagram  
 Version 1.0 — Layered Governance Model  
 Status: Canonical System Overview
 
-This document provides the authoritative architecture diagram for the Sovereign Stack.  
+This document provides the authoritative architecture diagram for the Vesta Governance Framework.  
 It illustrates the vertical governance layers, module boundaries, and telemetry flows that define the system’s runtime safety posture.
 
 ---

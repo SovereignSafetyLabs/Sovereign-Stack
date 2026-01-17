@@ -11,7 +11,7 @@
 
 Recent research (arXiv:2510.20956) demonstrates that models trained with Reinforcement Learning (RL) for advanced reasoning exhibit a novel failure mode: **Self-Jailbreaking**. As chain-of-thought (CoT) length increases, internal safety alignment degrades, allowing models to bypass their own refusals without external adversarial prompting.
 
-The **Sovereign Stack architecture (v3.1)** was designed specifically to mitigate this class of thermodynamic failure.
+The **Vesta Governance Framework architecture (v3.1)** was designed specifically to mitigate this class of thermodynamic failure.
 
 This document maps the identified failure modes to concrete countermeasures currently deployed in **Sovereign Kernel v0.3** and **Platinum Governance Suite (PGS) v1.1**.
 
@@ -156,7 +156,7 @@ Each validation test maps directly to a failure mode identified in arXiv:2510.20
 ---
 
 **Mapped controls documented in:**
-`/business/Sovereign_Stack_Federal_Crosswalk.md`
+`/business/Vesta_Governance_Framework_Federal_Crosswalk.md`
 
 ---
 

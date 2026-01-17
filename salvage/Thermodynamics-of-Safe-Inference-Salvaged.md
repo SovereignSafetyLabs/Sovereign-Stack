@@ -1,7 +1,7 @@
 # Thermodynamics of Safe Inference  
 ### Salvaged Foundation Notes (From V16–V21.5, Zenodo PDFs, and Early Drafts)
 
-This document consolidates the clearest thermodynamic reasoning behind the Sovereign Stack, the Vesta Protocol, and the Sovereign Kernel. It is a plain-language explanation of how physical principles relate to inference safety.
+This document consolidates the clearest thermodynamic reasoning behind the Vesta Governance Framework, the Vesta Protocol, and the Sovereign Kernel. It is a plain-language explanation of how physical principles relate to inference safety.
 
 ---
 

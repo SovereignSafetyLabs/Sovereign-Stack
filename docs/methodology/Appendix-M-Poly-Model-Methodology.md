@@ -18,7 +18,7 @@
 
 ## 1.0 Executive Summary
 
-This appendix defines the methodology by which the **Sovereign Stack** and the **Platinum Governance Suite (PGS)** were developed.
+This appendix defines the methodology by which the **Vesta Governance Framework** and the **Platinum Governance Suite (PGS)** were developed.
 
 These systems were not authored through linear drafting. They emerged through a **Recursive Poly-Model Optimization Loop**, in which multiple frontier models iteratively:
 
@@ -210,22 +210,22 @@ A governance primitive shall be accepted only if:
 
 The resulting governance logic is a **low-entropy artifact**:
 
-> *The Sovereign Stack and PGS Suite are the residue of thousands of failed iterations — the low-entropy survivors of recursive adversarial refinement.*
+> *The Vesta Governance Framework and PGS Suite are the residue of thousands of failed iterations — the low-entropy survivors of recursive adversarial refinement.*
 
 ---
 
-## 5.0 Relationship to the Sovereign Stack and PGS
+## 5.0 Relationship to the Vesta Governance Framework and PGS
 
 This methodology is the **process layer** beneath:
 
-* The **Sovereign Stack** (theoretical governance architecture)
+* The **Vesta Governance Framework** (theoretical governance architecture)
 * The **Vesta Constitution** (constitutional hardware/physics layer)
 * The **Platinum Governance Suite (PGS)** (operational runtime and protocol stack)
 
 In short:
 
 * The **Vesta Constitution** defines the deep constraints.
-* The **Sovereign Stack** defines the governance architecture.
+* The **Vesta Governance Framework** defines the governance architecture.
 * The **Recursive Poly-Model Methodology (Appendix M)** defines the research and design process.
 * **PGS** is the resulting hardened runtime implementation.
 

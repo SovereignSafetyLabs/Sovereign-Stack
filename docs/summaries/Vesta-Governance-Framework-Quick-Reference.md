@@ -1,6 +1,6 @@
-# Sovereign Stack — Quick Reference (v1.0)
+# Vesta Governance Framework — Quick Reference (v1.0)
 
-A one-page operational summary of the Sovereign Stack governance architecture.
+A one-page operational summary of the Vesta Governance Framework governance architecture.
 
 ---
 

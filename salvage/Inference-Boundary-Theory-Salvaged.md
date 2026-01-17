@@ -3,7 +3,7 @@
 ## Purpose: Preserve core safety insights from earlier drafts
 
 This document synthesizes key safety principles from whitepaper versions V16–V21.5.  
-These insights informed the Sovereign Stack, PGS v1.1, and the upcoming Sovereign Kernel.
+These insights informed the Vesta Governance Framework, PGS v1.1, and the upcoming Sovereign Kernel.
 
 ---
 

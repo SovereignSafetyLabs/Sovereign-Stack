@@ -1,7 +1,7 @@
 # Global Optimum Theory — Salvaged Notes  
 ### Supplemental Document (Not Canonical), v0.1
 
-This document consolidates the clearest and most technically coherent material from **Global Optimum Theory**, tying it into the Sovereign Stack, PGS v1.1, and the Sovereign Kernel.
+This document consolidates the clearest and most technically coherent material from **Global Optimum Theory**, tying it into the Vesta Governance Framework, PGS v1.1, and the Sovereign Kernel.
 
 The purpose is to preserve the mathematical intuition that informed:
 

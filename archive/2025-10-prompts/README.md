@@ -1,6 +1,6 @@
 # Prompt Archive — 2025-10 Corpus
 
-This directory preserves the original prompt-engineering artifacts used during the initial formation of the Sovereign Stack.  
+This directory preserves the original prompt-engineering artifacts used during the initial formation of the Vesta Governance Framework.  
 These files represent **early operator inputs**, **persona bootloaders**, and **zero-shot activation sequences** that later evolved into:
 
 - Integrity Stack v2.x  

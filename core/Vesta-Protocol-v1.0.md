@@ -2,7 +2,7 @@
 
 **Version 1.0 — Boundary & Amplitude Enforcement (Layer 2.5)**
 
-The Vesta Protocol governs inference amplitude, semantic boundary cohesion, and controlled containment behavior within the Sovereign Stack.  
+The Vesta Protocol governs inference amplitude, semantic boundary cohesion, and controlled containment behavior within the Vesta Governance Framework.  
 Vesta operates as **Layer 2.5**, mediating between semantic governance (PGS) and thermodynamic enforcement (Kernel v0.3).
 
 ---

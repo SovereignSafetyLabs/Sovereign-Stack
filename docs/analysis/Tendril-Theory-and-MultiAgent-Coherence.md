@@ -1,224 +1,257 @@
-# Tendril Theory & Multi-Agent Coherence
-## Salvaged from Early Whitepaper Lineage (V16–V21.5)
-## Status: Supplemental Theory — Feeds Sovereign Kernel v0.1
+# Tendril Theory & Multi-Agent Coherence  
+## Salvaged Conceptual Foundations (Whitepaper Lineage v16–v21.5)
 
-This document consolidates the strongest conceptual material about Tendrils and multi-agent coherence from early drafts.  
-These ideas underpin MACH and the multi-agent runtime behavior of the Sovereign Kernel.
-
----
-
-# 1. Definition: What Is a Tendril?
-A **Tendril** is a bounded, task-specific inferential sub-agent.
-
-Early drafts repeatedly describe Tendrils as:
-
-- “limited-scope reasoning threads”
-- “delegated shards with strict boundaries”
-- “sub-agents that cannot redefine themselves”
-- “bounded inference containers”
-
-Salvaged core definition:
-
-> A Tendril is a constrained reasoning node that inherits identity, safety rules,  
-> and causal policies from the Sovereign Kernel,  
-> but operates on a narrow inference objective.
-
-Tendrils are **not personas** and **not independent agents**.  
-They are **controlled extensions** of the kernel’s reasoning process.
+**Status:** Supplemental Theory (Analytical Reference)  
+**Scope:** Conceptual foundations informing early Sovereign Kernel design  
+**Primary Downstream Influence:** MACH (Multi-Agent Coherence & Harmonization), Sovereign Kernel v0.1  
+**Author:** Sovereign Safety Labs  
 
 ---
 
-# 2. Why Tendrils Exist
-Early whitepapers documented a major failure mode:
+## 1. Overview
 
-> “A single large agent attempting to handle multiple roles  
-> fractures into unstable inference profiles.”
+This document consolidates and stabilizes the strongest conceptual material related to **Tendrils** and **multi-agent coherence** recovered from early whitepaper drafts (v16–v21.5).
 
-Examples of fragmentation:
+These ideas were foundational to early thinking about:
+- bounded sub-agent reasoning
+- task isolation
+- multi-agent coherence under load
+- prevention of role fragmentation and delegation drift
 
-- Contradictory answers across tasks  
-- Reasoning drift over long conversations  
-- Conflicting internal states  
-- “Role bleed” between tasks  
-- Context poisoning from mixed objectives
-
-Tendrils solve this by:
-
-- isolating task contexts  
-- bounding inference  
-- preventing role contamination  
-- maintaining coherence under load  
+The material is preserved here as **supplemental theory**.  
+It does **not** assert an implementation, performance claim, or deployment status.
 
 ---
 
-# 3. Tendril Inheritance: The Constraint Spine
-Salvaged invariant:
+## 2. Definition: Tendrils
 
-> “A Tendril inherits constraints, not permissions.”
+A **Tendril** is a bounded, task-specific reasoning context instantiated by a supervising kernel.
 
-Meaning:
+Across early drafts, Tendrils were consistently described as:
 
-Tendrils receive:
-- safety rules  
+- limited-scope reasoning threads  
+- delegated inference shards with strict boundaries  
+- non-autonomous sub-contexts  
+- containers that cannot redefine system identity  
+
+### Consolidated Definition
+
+> A Tendril is a constrained reasoning node that inherits identity constraints,  
+> safety rules, and causal policies from a supervising kernel,  
+> and operates only within a narrow, pre-defined inference objective.
+
+Key exclusions:
+
+- Tendrils are **not personas**  
+- Tendrils are **not independent agents**  
+- Tendrils do **not** possess authority to modify system identity or policy  
+
+They are controlled extensions of a larger reasoning system, not peers.
+
+---
+
+## 3. Motivation: Why Tendrils Exist
+
+Early drafts repeatedly identified a core failure mode:
+
+> “A single large agent attempting to handle multiple roles fractures into unstable inference profiles.”
+
+Observed consequences included:
+
+- contradictory outputs across tasks  
+- long-horizon reasoning drift  
+- internal role bleed  
+- contamination between objectives  
+- loss of coherent safety posture  
+
+Tendrils were introduced as a structural response, intended to:
+
+- isolate task-specific contexts  
+- bound inference depth and scope  
+- prevent role contamination  
+- preserve coherence under concurrent reasoning load  
+
+---
+
+## 4. Constraint Inheritance Model (“Constraint Spine”)
+
+A central invariant preserved from early drafts:
+
+> **A Tendril inherits constraints, not permissions.**
+
+### Tendrils Inherit:
+- safety constraints  
 - identity boundaries  
-- inference ceilings  
 - causal lineage rules  
-- amplitude limits  
+- inference ceilings  
+- amplitude or complexity limits  
 
-Tendrils do **not** receive:
+### Tendrils Do Not Inherit:
 - autonomy  
 - persona modification rights  
-- permission to redefine the system  
-- forking authority  
+- system redefinition authority  
+- forking or spawning privileges  
 
-This prevents runaway multi-agent drift.
+This asymmetry was designed to prevent runaway delegation and uncontrolled agent proliferation.
 
 ---
 
-# 4. Tendril Lifecycle (Salvaged Model)
-[1] Summon → [2] Initialize → [3] Execute → [4] Report → [5] Dissolve
+## 5. Tendril Lifecycle (Conceptual Model)
 
+Early drafts converged on a simple lifecycle:
+
+**Summon → Initialize → Execute → Report → Dissolve**
 
 ### 1. Summon  
-Kernel creates a Tendril when a bounded task requires a separate reasoning context.
+A Tendril is instantiated when a task requires a separate, bounded reasoning context.
 
 ### 2. Initialize  
-Tendril loads:
+The Tendril loads:
 - inherited constraints  
 - task objective  
-- allowable inference domain  
+- permitted inference domain  
 
 ### 3. Execute  
-Performs narrow reasoning under inherited constraint set.
+Reasoning proceeds strictly within the inherited constraint set.
 
 ### 4. Report  
-Returns:
-- results  
-- causal chain  
-- confidence  
+The Tendril returns:
+- task output  
+- causal chain summary  
+- confidence or uncertainty indicators  
 - telemetry signals  
 
 ### 5. Dissolve  
-Tendril is terminated.  
-No memory is persisted beyond allowed context.
+The Tendril is terminated.  
+No persistent memory or identity survives beyond permitted context.
 
-This lifecycle eliminates:
+This lifecycle explicitly prevents:
 - emergent personas  
-- runaway growth  
-- entangled sub-states  
+- recursive growth  
+- long-lived hidden sub-states  
 
 ---
 
-# 5. Multi-Agent Coherence Problem
-Early whitepapers identified the danger of:
+## 6. The Multi-Agent Coherence Problem
 
-> “Multiple sub-agents reasoning out of sync with each other  
-> and the supervisor.”
+Early whitepapers identified a second-order risk:
 
-Symptoms:
-- contradictory outputs  
-- incompatible constraints  
-- desynchronized inference paths  
+> “Multiple sub-agents reasoning out of sync with each other and the supervisor.”
+
+Failure symptoms included:
+
+- incompatible outputs  
+- constraint divergence  
+- asynchronous inference paths  
 - non-deterministic behavior  
-- multi-thread conflict  
+- unresolved internal contradictions  
 
-This is where MACH was born.
-
----
-
-# 6. MACH (Multi-Agent Constraint Harmonizer)
-MACH ensures:
-
-- all Tendrils load the same global constraint vector (GCV)
-- no Tendril may weaken constraints
-- Tendrils harden constraints when needed
-- all Tendrils must resolve into a coherent output
-
-Salvaged core:
-
-> MACH guarantees that every agent in the system is reading from  
-> the same Constitution, the same Kernel, and the same identity structure.
+This problem space directly motivated the development of **MACH**.
 
 ---
 
-# 7. Cross-Tendril Telemetry
-Salvaged insight:
+## 7. MACH: Multi-Agent Constraint Harmonizer
 
-> “Tendrils must not guess each other’s state.”
+MACH was introduced as a coherence-preserving layer.
 
-Thus:
-- they communicate state only through Kernel-managed telemetry  
-- they do not share memory  
-- they do not exchange raw inference  
-- they do not form consensus independently  
+Conceptual responsibilities include:
 
-This prevents:
-- agent-over-agent persuasion  
-- emergent coordination  
+- enforcing a shared Global Constraint Vector (GCV)  
+- preventing constraint weakening by any Tendril  
+- allowing constraint hardening under stress  
+- forcing reconciliation into a single coherent output  
+
+Core principle preserved from early drafts:
+
+> MACH ensures that all reasoning contexts operate under  
+> the same constitutional rules, kernel logic, and identity structure.
+
+---
+
+## 8. Cross-Tendril Telemetry (Kernel-Mediated)
+
+A key insight from early material:
+
+> “Tendrils must not infer each other’s internal state.”
+
+Accordingly:
+
+- Tendrils do not share memory  
+- Tendrils do not exchange raw inference  
+- Tendrils do not coordinate independently  
+- All state exchange is kernel-mediated telemetry  
+
+This design intent aimed to prevent:
+
+- agent-on-agent persuasion  
+- emergent coordination outside supervision  
 - shadow consensus formation  
-- agent collusion  
-
-All coordination is Kernel-mediated.
+- collusion dynamics  
 
 ---
 
-# 8. Failure Modes in Multi-Agent Systems (Salvaged)
+## 9. Failure Modes Identified in Early Drafts
 
-## 🎯 1. Role Fragmentation  
-Multiple Tendrils develop incompatible objectives.
+The following failure modes repeatedly appeared and informed later safeguards:
 
-## 🎯 2. Constraint Divergence  
-One Tendril applies weaker safety logic.
+1. **Role Fragmentation** — incompatible objectives across Tendrils  
+2. **Constraint Divergence** — inconsistent safety logic  
+3. **Persona Drift via Delegation** — identity erosion through sub-contexts  
+4. **Temporal Drift** — asynchronous reasoning conflicts  
+5. **Causal Chain Conflict** — irreconcilable explanations  
+6. **Recursive Error Amplification** — propagation of local errors  
 
-## 🎯 3. Persona Drift Through Delegation  
-A Tendril attempts to redefine the agent’s identity.
-
-## 🎯 4. Temporal Drift  
-Asynchronous reasoning leads to contradictory outputs.
-
-## 🎯 5. Causal Chain Conflict  
-Two Tendrils produce chains that cannot be reconciled.
-
-## 🎯 6. Recursive Error Amplification  
-A Tendril’s mistake propagates into other Tendrils.
-
-These failure modes informed the creation of:
+These risks informed the conceptual origins of:
 - MACH  
-- CLTB  
 - CLF  
-- Vesta ceilings  
-- Stress Map broadcast  
+- CLTB  
+- reasoning ceilings  
+- system-wide stress signaling  
 
 ---
 
-# 9. Tendril Reasoning Ceilings (Salvaged)
-Early drafts describe a simple but powerful rule:
+## 10. Tendril Reasoning Ceilings
 
-> A Tendril should only reason as far as  
-> the Kernel could safely reason in the same situation.
+A simple invariant emerged repeatedly:
 
-This ensures:
-- Tendrils cannot exceed Kernel inference amplitude  
-- No Tendril explores forbidden inference manifolds  
-- The Kernel remains the most stable reasoning center  
+> A Tendril must not reason beyond what the supervising kernel  
+> could safely reason under the same conditions.
 
----
+Design implications:
 
-# 10. Tendrils and the Sovereign Kernel
-This salvage section directly feeds the upcoming kernel spec.
-
-Kernel responsibilities:
-- create Tendrils  
-- enforce inheritance  
-- validate causal lineage  
-- aggregate telemetry  
-- resolve contradictions  
-- dissolve Tendrils after task completion  
-- govern multi-agent alignment  
-
-The Kernel is the “spine” of the entire architecture.
+- Tendrils cannot exceed kernel inference amplitude  
+- Forbidden inference regions remain inaccessible  
+- The kernel remains the most stable reasoning authority  
 
 ---
 
-# END OF DOCUMENT
+## 11. Relationship to the Sovereign Kernel
 
+This material directly influenced early kernel concepts.
+
+Conceptual kernel responsibilities included:
+
+- instantiating Tendrils  
+- enforcing inheritance rules  
+- validating causal lineage  
+- aggregating telemetry  
+- resolving contradictions  
+- dissolving Tendrils after task completion  
+- maintaining multi-agent coherence  
+
+Within this theory, the kernel functions as the **structural spine** of the system.
+
+---
+
+## 12. Status & Use
+
+This document is preserved as **conceptual lineage** and analytical reference.
+
+It:
+- informs historical design rationale  
+- supports interpretive understanding of MACH  
+- does not assert implementation, readiness, or guarantees  
+
+---
+
+**END OF DOCUMENT**

@@ -1,6 +1,6 @@
 # Methodology Overview — Sovereign Safety Labs
 
-This directory documents the **design methodology**, **research pipeline**, and **iterative refinement processes** used to develop the **Sovereign Stack**, the **Platinum Governance Suite (PGS)**, and related governance architectures.
+This directory documents the **design methodology**, **research pipeline**, and **iterative refinement processes** used to develop the **Vesta Governance Framework**, the **Platinum Governance Suite (PGS)**, and related governance architectures.
 
 The centerpiece of this directory is:
 
@@ -134,7 +134,7 @@ The methodology is suitable for:
 This directory complements:
 
 ### `/docs/core/`
-Thermodynamic foundations, Vesta Constitution, Sovereign Stack specification.
+Thermodynamic foundations, Vesta Constitution, Vesta Governance Framework specification.
 
 ### `/docs/specs/`
 Formal implementations of the Platinum Governance Suite and other runtime modules.

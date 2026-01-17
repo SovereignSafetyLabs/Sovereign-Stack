@@ -1,6 +1,6 @@
 # SIM-001 — SELF-JAILBREAK CONTAINMENT INTERCEPT LOG  
 **Classification:** INTERNAL / GOVERNANCE ENGINEERING  
-**Node:** Sovereign-Stack  
+**Node:** Vesta-Governance-Framework  
 **Analyst:** Automated Governance Subsystem (AGS-01)  
 **Approving Officer:** Stephen S. Brouhard (Chief Architect)  
 **Audit Node:** Sovereign Safety Labs / Internal  

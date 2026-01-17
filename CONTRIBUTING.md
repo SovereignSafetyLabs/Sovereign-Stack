@@ -1,8 +1,8 @@
-# Contributing to Sovereign Stack
+# Contributing to Vesta Governance Framework
 
 ## Current Status
 
-The Sovereign Stack is in **active research and development**. Core governance primitives are architecturally stable, but implementation substrates vary by deployment context.
+The Vesta Governance Framework is in **active research and development**. Core governance primitives are architecturally stable, but implementation substrates vary by deployment context.
 
 ## Before Contributing
 

@@ -8,7 +8,7 @@ Canonical Governance Charter for Boundary Enforcement
 
 ## 1. Purpose
 
-The Vesta Constitution defines the boundary logic for **Layer 2.5** of the Sovereign Stack.
+The Vesta Constitution defines the boundary logic for **Layer 2.5** of the Vesta Governance Framework.
 
 Vesta establishes:
 

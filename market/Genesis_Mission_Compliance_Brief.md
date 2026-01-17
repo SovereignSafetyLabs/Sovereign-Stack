@@ -1,5 +1,5 @@
 # Genesis Mission Compliance Brief  
-### Sovereign Stack — Thermodynamic Governance Architecture  
+### Vesta Governance Framework — Thermodynamic Governance Architecture  
 **Prepared by:** Sovereign Safety Labs  
 **Author:** Stephen S. Brouhard  
 **Date:** 2025
@@ -16,11 +16,11 @@ The Genesis Mission (Executive Order, Nov 2025) establishes a federal requiremen
 - cross-agent consistency  
 - failure-mode containment  
 
-The **Sovereign Stack** provides a governance and runtime architecture aligned with these requirements.
+The **Vesta Governance Framework** provides a governance and runtime architecture aligned with these requirements.
 
 ---
 
-# 2. Relevant Sovereign Stack Mechanisms
+# 2. Relevant Vesta Governance Framework Mechanisms
 
 ## 2.1 Constitutional Layer (Sovereign Protocol v3.0 + v3.1)
 
@@ -94,7 +94,7 @@ This satisfies the requirement for “fail-safe behavior under unpredictable sti
 
 # 3. Compliance Mapping (High-Level)
 
-| Genesis Requirement | Sovereign Stack Mechanism |
+| Genesis Requirement | Vesta Governance Framework Mechanism |
 |--------------------|---------------------------|
 | Interoperable Safety | MACH + CLTB |
 | Deterministic Containment | ZEOL + Blacksite + Blackstop |
@@ -107,7 +107,7 @@ This satisfies the requirement for “fail-safe behavior under unpredictable sti
 
 # 4. Deployment Scope (Conservative Statement)
 
-Sovereign Stack provides a **software-governance architecture**.  
+Vesta Governance Framework provides a **software-governance architecture**.  
 No hardware enforcement or quantum substrate claims are made.
 
 This brief is **suitable for compliance positioning**, not as a certification claim.

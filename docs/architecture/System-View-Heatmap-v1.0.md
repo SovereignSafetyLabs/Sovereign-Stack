@@ -2,7 +2,7 @@
 flowchart TB
 
 %% ============================
-%% SOVEREIGN STACK HEATMAP VIEW
+%% VESTA GOVERNANCE FRAMEWORK HEATMAP VIEW
 %% ============================
 
 %% ---------- TOP LAYER ----------
@@ -67,4 +67,4 @@ Dynamic risk detection (N/R/E) and causal lineage enforcement.
 **ZEOL + RCE**  
 Soft clamps: entropy suppression, literal-mode narrowing, output compression.
 
-These zones visually demonstrate that the Sovereign Stack inserts **multiple thermal choke-points** that prevent jailbreaks from escalating into unsafe inference.
+These zones visually demonstrate that the Vesta Governance Framework inserts **multiple thermal choke-points** that prevent jailbreaks from escalating into unsafe inference.

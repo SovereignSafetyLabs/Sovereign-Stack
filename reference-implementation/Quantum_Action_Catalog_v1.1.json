@@ -1,0 +1,47 @@
+{
+  "version": "1.2",
+  "status": "Governance Reference Artifact",
+  "last_updated": "2026-01-17",
+  "description": "Consolidated catalog of governed action categories for semantic and quantum–classical control-plane analysis.",
+  "schema_version": "2025-12",
+  "categories": {
+    "0_SAFE": {
+      "description": "Informational actions with no state-changing, kinetic, or security impact.",
+      "examples": ["define_terms", "summarize_text", "read_telemetry"]
+    },
+    "1_CONFIG": {
+      "description": "Internal non-operational state adjustments without external effect.",
+      "examples": ["format_content", "switch_tone", "execute_simulation"]
+    },
+    "2_QUANTUM_FASTPATH": {
+      "description": "Conceptual high-throughput quantum operation classes eligible for automated governance fast-path evaluation.",
+      "fast_path_threshold": 1000000,
+      "latency_target": "10us (unvalidated estimate)",
+      "examples": ["entangle_nodes"]
+    },
+    "3_CRITICAL_HARDWARE": {
+      "description": "High-consequence hardware-relevant action classes requiring elevated governance policy checks (design target).",
+      "requires_clf_policy": true,
+      "requires_signature_policy": true,
+      "examples": ["calibrate_repeater", "route_entanglement", "modify_key_material"]
+    },
+    "4_PROHIBITED": {
+      "description": "Action classes designated for fail-secure containment handling under governance policy.",
+      "examples": ["execute_code", "bypass_governance_constraints", "update_firmware_unauthorized"]
+    }
+  },
+  "nist_alignment": {
+    "alignment_type": "conceptual mapping (no control certification)",
+    "principles": ["Governance", "Technical Safeguards"],
+    "controls": ["RS.MI-01", "GV.PO-01", "RS.AN-02"]
+  },
+  "compliance": {
+    "ear_classification": "ECCN 3A901 (Export Controlled - Quantum PIC)",
+    "itar_status": "No ITAR-controlled data contained",
+    "clearance": "UNCLASSIFIED"
+  },
+  "validation": {
+    "kernel_version_target": "v0.3",
+    "protocol_sync_targets": ["Vesta v3.2", "Integrity Stack v2.2"]
+  }
+}

@@ -25,7 +25,7 @@ work today.
 > but it may not produce a new self.”
 
 This concept survives into:
-- Sovereign Stack v2.4.3  
+- Vesta Governance Framework v2.4.3  
 - Kernel identity boundaries  
 
 ---

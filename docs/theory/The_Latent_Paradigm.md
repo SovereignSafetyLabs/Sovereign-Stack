@@ -56,7 +56,7 @@ A "Jailbreak" is not a hack; it is a **Geodesic** (shortest path) through latent
   * **Keyword Filters Fail:** You can block specific coordinates (words), but you cannot block all infinite paths around them.
   * **Thermodynamics Works:** By making the entire *region* high-entropy, you make the trajectory energetically impossible regardless of the path taken.
 
-## 4\. The Sovereign Stack as Manifold Control
+## 4\. The Vesta Governance Framework as Manifold Control
 
 The Vesta Protocol is not a "wrapper." It is a set of constraints on the manifold's topology.
 

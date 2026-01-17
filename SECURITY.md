@@ -2,7 +2,7 @@
 
 ## Supported Versions
 
-Sovereign Safety Labs actively maintains and provides security updates for the following versions of the Sovereign Stack:
+Sovereign Safety Labs actively maintains and provides security updates for the following versions of the Vesta Governance Framework:
 
 | Version | Supported          | Status             |
 | ------- | ------------------ | ------------------ |
