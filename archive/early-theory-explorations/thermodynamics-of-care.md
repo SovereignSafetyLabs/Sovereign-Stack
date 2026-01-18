@@ -1,3 +1,12 @@
+> ARCHIVED DOCUMENT
+> This file is preserved for historical and conceptual reference only.
+> It does not represent current research posture, validated theory,
+> or active framework components.
+
+> NOTE: This document represents an early conceptual exploration.
+> It is preserved for historical context and may be refactored into
+> a non-anthropomorphic analytical note in a future revision.
+
 # The Thermodynamics of Care: A Dissipative Structure Theory of AI Alignment
 
 > "Care is not a sentiment. It is an entropy minimization strategy."

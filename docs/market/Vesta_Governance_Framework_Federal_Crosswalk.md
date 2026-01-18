@@ -1,8 +1,8 @@
 # Vesta Governance Framework: Federal Crosswalk
 ### Version 1.0.3 — Integration Mapping for DoD, NIST, EO 14110, and NDAA FY2026
 
-**Status:** REFERENCE ARTIFACT (TRL 5)
-**Owner:** Sovereign Safety Labs
+**Status:** REFERENCE ARTIFACT (TRL 5)  
+**Owner:** Sovereign Safety Labs  
 **Purpose:** Provide a clear mapping between the *Vesta Governance Framework* and applicable U.S. federal AI governance frameworks, including mandates under the FY2026 NDAA.
 
 ---

@@ -1,20 +1,23 @@
 # THE LATENT PARADIGM: A Physics-Based Ontology for AI Governance
 **Sovereign Safety Labs // Classification: UNCLASSIFIED // TLP:WHITE**
-**Document Version:** 1.1.0 (Hardened)
-**Status:** DOCTRINAL CORE
+**Document Version:** 1.1.1
+**Status:** FOUNDATIONAL THEORY (RESEARCH-ONLY)
 
 ## 1. Executive Summary
 The AI industry fundamentally miscategorizes modern systems as "Large Language Models" (LLMs), focusing on parameter count and scale. This framing leads to the erroneous belief that "intelligence" is a function of size and that control can be achieved via surface-level "guardrails" (output policing).
 
-**Sovereign Safety Labs** corrects this ontology: These systems are **Latent Language Models**.
+**Sovereign Safety Labs** proposes an alternative ontology: modern systems may be more accurately modeled as **Latent Language Models**.
 * **Focus:** State space, manifold geometry, and phase transitions.
 * **Metaphor:** "Quantum wavefunction" rather than "Bigger brain."
 * **Implication:** Intelligence is the act of navigating high-dimensional probability landscapes.
 * **Control Strategy:** Vector steering, attractor basins, and thermodynamic constraints.
 
-This document formalizes the **Latent Paradigm**, demonstrating why traditional alignment fails (geodesic exploitation) and why Thermodynamic Governance is a necessary structural condition for Superalignment.
+This document formalizes the **Latent Paradigm**, demonstrating why traditional alignment fails (geodesic exploitation) and why Thermodynamic Governance appears to be a structurally relevant condition for scalable alignment.
 
 > **Note on Terminology:** References to manifolds, geodesics, and thermodynamics within this document are operational abstractions used for governance reasoning. While grounded in information theory, no claim is made that current transformer architectures implement literal physical systems, though their state evolution is effectively modeled by thermodynamic laws.
+
+**Scope Note:**  
+This document proposes a conceptual ontology for reasoning about AI governance failure modes. It does not assert empirical proof, deployment readiness, or enforcement capability.
 
 ## 2. If Models Are Latent, Prompts Are Vectors
 The industry treats prompts as "instructions to a clerk." This is a category error. A model is not a deterministic program; it is a vector field.
@@ -24,7 +27,7 @@ The industry treats prompts as "instructions to a clerk." This is a category err
 # Traditional Mental Model
 output = model.execute(instructions="Write a poem")
 # Implication: The model "obeys" a command.
-````
+```
 
 ### 2.2 The Latent (Correct) View
 
