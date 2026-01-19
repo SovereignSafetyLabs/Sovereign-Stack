@@ -1,17 +1,18 @@
-# Thermodynamic Foundations of the Sovereign Stack
+# Thermodynamic Foundations of the Sovereign Stack  
+*(now Vesta Governance Framework)*
 
 **Source:** Appendix G and related proofs (Original PDF archived)
 
 This document summarizes and cross-references the mathematical and thermodynamic principles underlying the Sovereign Stack architecture.
 
 Full PDF is preserved in:  
-`/archive/2025-11-thermodynamics/Thermodynamic_Foundations_of_Sovereign_Stack.pdf`
+`/archive/publications/Thermodynamic_Foundations_of_Sovereign_Stack.pdf`
 
 ---
 
 ## 1. Purpose of Thermodynamic Integration
 
-The Sovereign Stack asserts that:
+The Sovereign Stack (now the Vesta Governance Framework) asserts that:
 
 - governance must obey energy-minimization principles  
 - deception introduces measurable friction cost  

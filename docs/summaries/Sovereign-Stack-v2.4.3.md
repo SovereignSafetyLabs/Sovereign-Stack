@@ -2,7 +2,7 @@
 ### Summary Document — Original PDF preserved for historical lineage
 
 Location:
-`/archive/2025-11-governance-stack/Sovereign_Stack_v2.4.3.pdf`
+`/archive/publications/Sovereign_Stack_v2.4.3.pdf`
 
 ---
 

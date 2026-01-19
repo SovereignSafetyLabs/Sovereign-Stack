@@ -7,7 +7,7 @@ This directory contains the operational artifacts required to transition Vesta P
 * **[Quantum-Classical Control Plane](Quantum-Classical-Control-Plane.md)**: The v0.3.4 specification governing the interaction between classical instruction layers and quantum photonic hardware.
 * **[Quantum Action Catalog (Human-Readable)](Quantum-Action-Catalog.md)**: A risk-tiered index of permissible system actions, from telemetry monitoring to critical laser calibration.
 * **[Quantum Action Catalog (Machine-Readable)](Quantum_Action_Catalog_v1.1.json)**: The v1.1 JSON payload used by the Sovereign Kernel for real-time instruction verification.
-* **[Integrity Stack v2.1](INTEGRITY-STACK-v2.1.md)**: The runtime specification for the software-layer verification and boundary enforcement engine.
+* **[Integrity Stack v2.1](INTEGRITY-STACK-v2.2.md)**: The runtime specification for the software-layer verification and boundary enforcement engine.
 
 
 

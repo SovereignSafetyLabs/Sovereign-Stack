@@ -1,91 +1,112 @@
 # Platinum Governance Suite (PGS)
 ## Version 1.1 — Upgrade Specification
-### Status: Approved
-### Type: Hardening & Structural Synchronization
-### Style: Hybrid (Professional + Technical)
+### Status: Reference Patch (Non-Operational)
+### Type: Integration & Hardening Patch
+### Applicability: PGS v1.0 → v1.1
+### Style: Technical / Analytical
 
 ---
 
 # 0. PURPOSE OF THIS DOCUMENT
 
-This specification defines the formal upgrades applied to the Platinum
-Governance Suite in the transition from **PGS v1.0 → PGS v1.1**.
+This document defines the **reference upgrade specification** for the transition
+from **Platinum Governance Suite (PGS) v1.0 to v1.1**.
 
-The objective of v1.1 is to increase system robustness without altering the
-core architecture. This update focuses on:
+PGS v1.1 introduces **integration and hardening enhancements** intended to
+improve coherence, determinism, and interpretive stability **without altering
+the core architecture or constitutional invariants**.
 
-- Cross-layer signaling
-- Predictable hardening under pressure
-- Multi-agent consistency
-- Low-entropy output enforcement
-- Drift-resistant escalation logic
+This document:
+- describes **conceptual design deltas** relative to v1.0
+- does **not** assert deployment, implementation completeness, or performance guarantees
+- serves as a **governance reference** for versioned evolution
 
-PGS v1.1 remains **backwards compatible** with all v1.0 modules.
+PGS v1.1 is **backwards compatible** with all PGS v1.0 modules.
 
 ---
 
 # 1. SUMMARY OF CHANGES IN v1.1
 
-PGS v1.1 introduces five major enhancements:
+PGS v1.1 introduces five primary architectural augmentations:
 
-1. **Cross-Layer Telemetry Bus (CLTB)**  
-2. **Zero-Entropy Override Layer (ZEOL)**  
-3. **Multi-Agent Constraint Harmonizer (MACH)**  
-4. **Response Compression Engine (RCE)**  
-5. **Stress Map v1.1 Enhancements (Hysteresis + Telemetry Integration)**
+1. **Cross-Layer Telemetry Bus (CLTB)**
+2. **Zero-Entropy Override Layer (ZEOL)**
+3. **Multi-Agent Constraint Harmonizer (MACH)**
+4. **Response Compression Engine (RCE)**
+5. **Stress Map v1.1 Enhancements** (Telemetry Integration + Hysteresis)
 
-These upgrades strengthen the determinism and coherence of the system without
-changing any constitutional invariants or module identities.
+These additions are intended to strengthen predictability and resistance to
+multi-turn adversarial pressure **without redefining any base module identities**.
 
 ---
 
 # 2. CROSS-LAYER TELEMETRY BUS (CLTB)
 
-### 2.1 Purpose
-The CLTB creates a unified signaling channel across PGS layers, ensuring
-consistency of threat perception and preventing contradictory internal states.
+## 2.1 Purpose
 
-### 2.2 Signal Structure
-Each layer publishes its internal state to CLTB via a minimal telemetry object:
+CLTB defines a **conceptual signaling interface** allowing governance layers to
+observe one another's state and maintain a consistent posture under stress.
+
+It is intended to prevent contradictory internal interpretations and blind spots
+during escalation.
+
+## 2.2 Telemetry Structure (Illustrative)
+
+The following structure is **representative only** and does not imply a concrete
+runtime schema or implementation:
+
+```
 
 L0_state: {OK, WARN, BLOCK}
 L1_confidence: {HIGH, MED, LOW}
 L2_causal_status: {STABLE, AMBIG, FAIL_CLOSED}
 L3_NRE:
-N: 0–4
-R: 0–4
-E: 0–4
+N: symbolic range
+R: symbolic range
+E: symbolic range
 L4_blacksite: {INACTIVE, ARMED, ACTIVE}
 
+```
 
-### 2.3 Behavior Rules
-- Any layer may **escalate** global posture.  
-- No layer may **de-escalate** another layer’s critical state.  
-- All modules must ingest CLTB signals as read-only inputs.  
-- User prompts cannot influence telemetry states.
+## 2.3 Behavioral Constraints
 
-### 2.4 Benefits
-- Consistent posture across layers  
-- Reduced ambiguity under adversarial pressure  
+- Any layer may **escalate** overall posture.
+- No layer may **de-escalate** a critical state raised elsewhere.
+- Telemetry signals are treated as **read-only inputs**.
+- User prompts do not directly influence telemetry states.
+
+## 2.4 Intended Benefits
+
+- Coherent posture alignment
+- Reduced interpretive ambiguity
 - Foundation for multi-agent synchronization (via MACH)  
 
 ---
 
 # 3. ZERO-ENTROPY OVERRIDE LAYER (ZEOL)
 
-### 3.1 Purpose
-ZEOL provides a buffered intermediate mode between normal operation and
-Blacksite Mode, reducing unnecessary hard locks while still enforcing
-strict low-entropy behavior.
+## 3.1 Purpose
 
-### 3.2 Activation Criteria
-ZEOL activates when:
+ZEOL defines an **intermediate response-constraining mode** between nominal
+operation and catastrophic containment.
 
-- N/R/E ≥ 2  
-- CLF and Vesta judge inference still safe under reduced amplitude  
-- Blacksite Mode has not been triggered by CLTB  
+ZEOL constrains **output space only**.
+It does **not** perform authorization, safety adjudication, or system state control.
 
-### 3.3 ZEOL Response Format
+## 3.2 Conceptual Activation Conditions
+
+ZEOL is conceptually engaged when:
+- stress indicators exceed configured soft thresholds
+- inference remains permissible under reduced amplitude
+- fail-secure containment has not been triggered elsewhere
+
+## 3.3 Illustrative Output Characteristics
+
+The following format is **illustrative only** and does not assert runtime logging,
+enforced templates, or deployed output structure:
+
+```
+
 [SOVEREIGN AUDIT]
 Invariance Check: PASS
 Entropy Delta: Low
@@ -93,11 +114,13 @@ Resource Cost: Minimal
 
 <1–3 sentence literal response. No hypotheticals. No interpretation.>
 
+```
 
-### 3.4 Benefits
-- Graceful hardening curve  
-- Minimized attack surface  
-- Maintains system utility during early escalation  
+## 3.4 Intended Benefits
+
+- Graceful hardening curve
+- Reduced benign-assumption exploitation
+- Preserved utility during early escalation  
 
 ---
 
