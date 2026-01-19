@@ -1,108 +1,160 @@
 # Vesta Governance Framework v3.2
-*(Formerly "Sovereign Stack")*
+*(formerly “Sovereign Stack”)*
 
-**An Exploratory Research Framework for AI Governance and Adversarial Evaluation**
+**Exploratory Research Framework for AI Governance, Adversarial Evaluation, and Constraint-Based Analysis**
 
 ---
 
 > ⚠️ **RESEARCH STATUS NOTICE**
 >
 > This repository documents an **independent, non-operational research effort**.
-> It presents conceptual architectures, evaluation methodologies, and failure-mode analyses.
-> It does **not** represent deployed systems, production software, safety guarantees,
-> or enforceable governance mechanisms.
+> It contains conceptual architectures, analytical models, and reference logic
+> intended for study, critique, and evaluation.
+>
+> It does **not** represent deployed systems, production software, certified controls,
+> or enforceable governance mechanisms. No safety, compliance, or performance guarantees
+> are made or implied.
 
 ---
 
-## What This Is
+## What This Repository Is
 
-The **Vesta Governance Framework** is an open research initiative exploring how AI governance and alignment approaches behave under adversarial, long-horizon, and structurally stressful conditions.
+The **Vesta Governance Framework** is an open research initiative examining how
+AI governance and alignment approaches behave under:
+
+- adversarial pressure
+- long-horizon interaction
+- multi-agent coordination
+- constraint degradation and escalation
+- representation drift and failure modes
 
 The work focuses on:
-- documenting governance and alignment failure modes (e.g., *Representation Drift*)
-- analyzing constraint breakdown under adversarial pressure
-- proposing *conceptual* governance architectures for study and discussion
-- developing evaluation and stress-testing methodologies
 
-### Repository Artifact Status (TRL)
-To assist researchers and auditors, the contents of this repository are strictly classified by **Technology Readiness Level (TRL)**.
+- documenting governance failure modes (e.g., self-jailbreaking, drift)
+- analyzing constraint breakdown under stress
+- proposing *conceptual* governance architectures for discussion
+- developing repeatable **evaluation and stress-testing methodologies**
 
-➡️ **For the complete itemized inventory of all files and their audit status, see [`ARTIFACTS.md`](ARTIFACTS.md).**
-
-| Component | Status | TRL | Description |
-| :--- | :--- | :--- | :--- |
-| **Governance Protocols** | **Reference Logic** | **TRL 5** | Python 3.10+ schemas, JSON action catalogs, and logic gates **located under [`/reference-implementation/`](reference-implementation/)**. Provided for analytical inspection only. |
-| **Evaluation Methodology** | **Defined Process** | **TRL 4** | Analytical frameworks for stress-testing and failure-mode analysis **located under [`/docs/technical/`](docs/technical/README.md)**. |
-| **Hardware Enforcement** | **Conceptual / Roadmap** | **TRL 2** | Theoretical architectures (e.g., Entropy Vaults, Hardware Locks). **No Verilog/GDSII present.** |
+All artifacts are explicitly classified by maturity to prevent over-claim.
 
 ---
 
-## What's New in v3.2 (January 2026)
+## Artifact Maturity & TRL Discipline
 
-This release focuses on **Adversarial Hardening** and **constraint-based (thermodynamic-inspired) governance analysis**.
+All repository contents are classified using a **repository-specific Technology Readiness Level (TRL)** scheme.
 
-* **TokenBucket Rate Limiter (ECO-2026-01-15):** An updated *reference design* for the Quantum-Classical Control Plane, addressing “Flash Flood” DoS patterns in analytical and simulation contexts.
-* **Representation Drift Countermeasures:** A new threat model addressing *Nature (2026)* findings on fine-tuning-induced misalignment.
-* **The Latent Paradigm:** A new doctrinal paper defining models as high-dimensional manifolds rather than “agents.”
-* **Federal Crosswalk v1.0.3:** Updated mapping to NDAA FY2026 and EO 14110 requirements.
+➡️ **The authoritative inventory is [`ARTIFACTS.md`](ARTIFACTS.md).**
 
----
+**Key rule:**  
+No artifact in this repository exceeds **TRL 5**.
 
-## Version Matrix
+| Category | TRL | Meaning |
+|---|---:|---|
+| **Reference Logic** | **TRL 5** | Inspectable schemas and Python logic validated in simulated or analytical environments. No physical hardware integration. |
+| **Methodology & Process** | **TRL 4** | Repeatable analytical or audit processes. Results are context-dependent. |
+| **Specifications & Architecture** | **TRL 2–3** | Conceptual designs and interface definitions. |
+| **Theory & Narrative** | **TRL 0–1** | Exploratory research, hypotheses, or archival material. |
 
-Due to independent component lifecycles, version numbers may vary by artifact:
-
-| Component | Version | Rationale |
-| :--- | :--- | :--- |
-| **Governance Framework** | **v3.2** | The overarching architectural definition. |
-| **Integrity Stack** | **v2.2** | The specific runtime logic module (Reference Implementation). |
-| **Federal Crosswalk** | **v1.0.3** | The compliance mapping document. |
-| **Action Catalog** | **v1.1** | The JSON schema for allowable actions. |
+**Non-Operational Invariant:**  
+Simulation, stubs, or modeled enforcement **do not qualify** as deployed systems.
 
 ---
 
-## What This Is Not
+## Repository Structure (How to Read This)
 
-The Vesta Governance Framework is **not**:
-- a deployed AI safety system
-- a certification or compliance framework
+### Tier 1 — Governance & Interpretation
+Authoritative posture, scope, and classification rules:
+
+- `README.md` (this file)
+- `ARTIFACTS.md` — complete inventory + TRL
+- `VALIDATION_STATUS.md` — non-guarantee register
+
+Read these **before** any technical material.
+
+---
+
+### Tier 2 — Technical Research Layer
+
+#### 📁 `technical/`
+Indexes architectural diagrams, threat models, simulations, and analytical constraints.
+
+➡️ Start here:  
+[`technical/README.md`](technical/README.md)
+
+This index distinguishes **reference logic (TRL 5)** from **design specs (TRL 2–3)**.
+
+---
+
+### 📁 `reference-implementation/`  **(TRL 5)**
+The **only location** containing executable or machine-readable reference artifacts.
+
+Includes:
+- JSON action catalogs
+- Python reference logic
+- control-plane interface descriptions
+
+These artifacts are:
+- inspectable
+- reproducible
+- **validated only in simulated or analytical environments**
+
+They are **not** production systems.
+
+---
+
+### 📁 `pgs-modules/`
+Modular documentation of the **Platinum Governance Suite (PGS)**.
+
+Each module is intentionally isolated to:
+- support selective use cases
+- enable targeted review
+- allow non-breaking hardening via patches
+
+The suite may be read **modularly** or as a unified conceptual system.
+
+---
+
+### 📁 `patches/`
+Non-breaking **reference patches** and hardening addenda.
+
+Patches:
+- do not imply deployment
+- do not upgrade TRL
+- document delta logic and governance evolution
+
+See `patches/README.md` for taxonomy.
+
+---
+
+## What This Repository Is Not
+
+This work is **not**:
+
+- a deployed AI governance system
+- a compliance or certification framework
 - a production enforcement layer
-- a guarantee of safe or aligned behavior
-- an operational governance product
+- a safety guarantee
+- a commercial product
 
-Any architectural descriptions, metrics, or primitives are presented as
-**hypotheses, research candidates, or analytical tools**, not validated controls.
+All architectures, metrics, and primitives are presented as
+**research hypotheses, analytical tools, or reference logic** only.
 
 ---
 
 ## Why This Work Exists
 
 Many current AI governance approaches rely on probabilistic or behavioral mechanisms
-(e.g., fine-tuning, policy filters, post-hoc monitoring) that exhibit known failure
-modes under:
+(e.g., fine-tuning, filters, post-hoc monitoring) that exhibit known failure modes under:
+
 - adversarial optimization
 - extended operation
 - multi-agent interaction
 - incentive misalignment
 
-This research investigates whether **systems-level constraints** (such as resource
-costs, entropy proxies, and structural invariants) can serve as *analytical lenses*
-for understanding governance robustness — not as ready-to-deploy solutions.
-
----
-
-## How to Read This Repository
-
-This repository is organized in **two tiers**:
-
-- **Tier 1 (this document)** Defines scope, posture, and interpretation boundaries.
-
-- **Tier 2 (Technical Research Layer)** Contains detailed architectural concepts, protocols, and methodologies.
-  These materials are explicitly exploratory and should be interpreted accordingly.
-
-Proceed to Tier 2 **only after accepting the research-only posture above**.
-
-➡️ **Technical materials are located in:** [`/docs/technical/README.md`](docs/technical/README.md)
+This research explores whether **systems-level constraints**
+(resource limits, entropy proxies, structural invariants)
+can serve as **analytical lenses** for studying governance robustness —
+not as ready-to-deploy solutions.
 
 ---
 
@@ -111,18 +163,18 @@ Proceed to Tier 2 **only after accepting the research-only posture above**.
 **Maintained by:** Sovereign Safety Labs (Independent Research Initiative)  
 **Primary Author:** Stephen S. Brouhard  
 
-Published research is archived via Zenodo and linked within the technical documentation.
+Selected research artifacts are archived via Zenodo and referenced where applicable.
 
 ---
 
 ## License
 
-This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+Creative Commons Attribution 4.0 International (CC BY 4.0)
 
 ---
 
 > ⚠️ **Final Research Notice**
 >
-> All claims of effectiveness, robustness, or applicability require
-> independent empirical validation in target environments.
+> Any claim of effectiveness, robustness, or applicability requires
+> independent empirical validation in a target environment.
 > Readers should conduct their own assessment before drawing operational conclusions.
